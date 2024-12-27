@@ -22,6 +22,8 @@ jobs:
         run:  |
           cp app/.env.example app/.env
           sed -i "s/^DJANGO_SECRET_KEY=.*$/DJANGO_SECRET_KEY=${{ secrets.DJANGO_SECRET_KEY }}/" app/.env
-
+          sed -i "s/^DJANGO_ADMIN_USERNAME=.*$/DJANGO_ADMIN_USERNAME=${{ secrets.DJANGO_ADMIN_USERNAME }}/" app/.env
+          sed -i "s/^DJANGO_ADMIN_EMAIL=.*$/DJANGO_ADMIN_EMAIL=${{ secrets.DJANGO_ADMIN_EMAIL }}/" app/.env
+          sed -i "s/^DJANGO_ADMIN_PASSWORD=.*$/DJANGO_ADMIN_PASSWORD=${{ secrets.DJANGO_ADMIN_PASSWORD }}/" app/.env
       - name: Deploy
         uses: DefangLabs/defang-github-action@v1.1.0
