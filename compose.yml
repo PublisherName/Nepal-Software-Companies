@@ -2,14 +2,14 @@ services:
   django:
     restart: unless-stopped
     build:
-      context: ./app
+      context: ./backend
       dockerfile: Dockerfile
     ports:
       - mode: ingress
         target: 8000
         # published: 8000 # uncomment for local dev
     env_file:
-      - app/.env
+      - backend/.env
     #deploy:
     #  resources:
     #    reservations:
