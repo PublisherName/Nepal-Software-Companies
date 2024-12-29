@@ -8,9 +8,7 @@ JAZZMIN_SETTINGS_CONFIG = {
     "site_title": env.str("SITE_TITLE", "Site Title"),
     "site_header": env.str("SITE_HEADER", "Site Header"),
     "site_brand": env.str("SITE_BRAND", "Site Brand"),
-    "site_logo": env.str(
-        "SITE_LOGO", default=os.path.join(BASE_DIR, "static", "admin", "img", "logo.png")
-    ),
+    "site_logo": env.str("SITE_LOGO", default=os.path.join(BASE_DIR, "static", "img", "logo.png")),
     "login_logo": None,
     "login_logo_dark": None,
     "site_logo_classes": "img-circle",

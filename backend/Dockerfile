@@ -11,21 +11,20 @@ ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
 
 # Set work directory
-WORKDIR /code
+WORKDIR /backend
 
 # Install dependencies
-COPY requirements.txt /code/
+COPY requirements.txt /backend/
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy project
-COPY . /code/
+COPY . /backend/
 
 # Copy .env file
 RUN cp .env.example .env
 
-COPY Makefile /code/
-RUN chmod +x /code/Makefile
-
+COPY Makefile /backend/
+RUN chmod +x /backend/Makefile
 
 # Collect static files
 RUN python manage.py collectstatic --noinput

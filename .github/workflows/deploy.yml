@@ -20,7 +20,7 @@ jobs:
 
       - name: Environment Variables
         run:  |
-          cp app/.env.example app/.env
+          cp backend/.env.example app/.env
           sed -i "s/^DJANGO_SECRET_KEY=.*$/DJANGO_SECRET_KEY=${{ secrets.DJANGO_SECRET_KEY }}/" app/.env
           sed -i "s/^DJANGO_ADMIN_USERNAME=.*$/DJANGO_ADMIN_USERNAME=${{ secrets.DJANGO_ADMIN_USERNAME }}/" app/.env
           sed -i "s/^DJANGO_ADMIN_EMAIL=.*$/DJANGO_ADMIN_EMAIL=${{ secrets.DJANGO_ADMIN_EMAIL }}/" app/.env
