@@ -5,12 +5,36 @@ services:
       context: ./backend
       dockerfile: Dockerfile
     ports:
-      - mode: ingress
-        target: 8000
+      - target: 8000
         # published: 8000 # uncomment for local dev
     env_file:
       - backend/.env
-    #deploy:
-    #  resources:
-    #    reservations:
-    #      memory: 256M
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    networks:
+      - app_network
+
+  nextjs:
+    restart: unless-stopped
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - target: 3000
+        # published: 3000 # uncomment for local dev
+    depends_on:
+      - django
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3000/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    networks:
+      - app_network
+
+networks:
+  app_network:
+    driver: bridge
