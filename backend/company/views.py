@@ -1,26 +1,46 @@
-from django.views.generic import ListView
+from django_filters import rest_framework as filters
+from rest_framework import filters as drf_filters
+from rest_framework import permissions, viewsets
+from rest_framework.decorators import action
+from rest_framework.response import Response
 
+from .filters import CompanyFilter
 from .models import Company
+from .serializers import CompanySerializer
 
 
-class CompanyListView(ListView):
-    model = Company
-    template_name = "company/index.html"
-    context_object_name = "companies"
-    paginate_by = 12
-
-    def get_context_data(self, **kwargs):
-        context = super().get_context_data(**kwargs)
-        context["total_companies"] = Company.objects.count()
-        context["verified_companies"] = Company.objects.filter(
-            is_valid=True,
-            is_active=True,
-        ).count()
-        return context
+class CompanyViewSet(viewsets.ModelViewSet):
+    serializer_class = CompanySerializer
+    permission_classes = [permissions.IsAuthenticatedOrReadOnly]
+    filter_backends = [
+        filters.DjangoFilterBackend,
+        drf_filters.SearchFilter,
+        drf_filters.OrderingFilter,
+    ]
+    filterset_class = CompanyFilter
+    search_fields = ["name", "city"]
+    ordering_fields = ["name", "city"]
+    ordering = ["name"]
 
     @staticmethod
     def get_queryset():
         return Company.objects.filter(
-            is_active=True,
             is_valid=True,
+            is_active=True,
         ).order_by("name")
+
+    @staticmethod
+    @action(detail=False, methods=["get"])
+    def stats(request):
+        total = Company.objects.count()
+        verified = Company.objects.filter(
+            is_valid=True,
+            is_active=True,
+        ).count()
+
+        return Response(
+            {
+                "total_companies": total,
+                "verified_companies": verified,
+            }
+        )

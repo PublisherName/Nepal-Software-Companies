@@ -66,6 +66,7 @@ repos:
     rev: v1.35.1
     hooks:
       - id: yamllint
+        args: ["-c", "backend/.yamllint"]
 
   # Django linting and formatting
   - repo: https://github.com/Riverside-Healthcare/djLint

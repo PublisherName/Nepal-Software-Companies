@@ -1,7 +1,6 @@
-from django.urls import path
+from rest_framework.routers import DefaultRouter
 
-from . import views
+from .views import CompanyViewSet
 
-urlpatterns = [
-    path("", views.CompanyListView.as_view(), name="company-list"),
-]
+router = DefaultRouter()
+router.register(r"companies", CompanyViewSet, basename="company")

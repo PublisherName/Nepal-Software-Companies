@@ -1,32 +1,26 @@
-"""
-URL configuration for root project.
-
-The `urlpatterns` list routes URLs to views. For more information please see:
-    https://docs.djangoproject.com/en/5.1/topics/http/urls/
-Examples:
-Function views
-    1. Add an import:  from my_app import views
-    2. Add a URL to urlpatterns:  path('', views.home, name='home')
-Class-based views
-    1. Add an import:  from other_app.views import Home
-    2. Add a URL to urlpatterns:  path('', Home.as_view(), name='home')
-Including another URLconf
-    1. Import the include() function: from django.urls import include, path
-    2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
-"""
-
 from django.contrib import admin
-from django.http import JsonResponse
 from django.urls import include, path
+from rest_framework.routers import DefaultRouter
 
+from company.urls import router as company_router
+from root.swagger import schema_view
+from root.views import HealthViewSet
 
-def health_check(request):
-    return JsonResponse({"status": "OK"})
+router = DefaultRouter()
 
+router.register(r"health", HealthViewSet, basename="health")
+
+router.registry.extend(company_router.registry)
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("health/", health_check),
-    path("", include("company.urls")),
+    path("", include(router.urls)),
+    path(
+        "docs/",
+        schema_view.with_ui("swagger", cache_timeout=0),
+        name="schema-swagger-ui",
+    ),
 ]
+
 handler404 = "root.views.custom_404"
+handler500 = "root.views.custom_500"
