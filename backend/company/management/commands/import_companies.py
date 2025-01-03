@@ -64,5 +64,5 @@ class Command(BaseCommand):
                     )
             except IntegrityError:
                 self.stdout.write(
-                    self.style.ERROR(f"IntegrityError: Duplicate entry for {row.get('Name')}")
+                    self.style.ERROR(f"IntegrityError: Duplicate entry for {row.get('name')}")
                 )
