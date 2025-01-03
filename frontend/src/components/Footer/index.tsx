@@ -48,7 +48,7 @@ const Footer = () => {
             <ul className='space-y-3'>
               <li>
                 <Link
-                  href='/companies'
+                  href='/company'
                   className='flex items-center gap-2 transition-colors duration-200 hover:text-white'
                 >
                   Browse Companies
@@ -56,7 +56,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href='/categories'
+                  href='#'
                   className='flex items-center gap-2 transition-colors duration-200 hover:text-white'
                 >
                   Categories
@@ -64,7 +64,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href='/about'
+                  href='#'
                   className='flex items-center gap-2 transition-colors duration-200 hover:text-white'
                 >
                   About Us

@@ -22,7 +22,15 @@ const Header = () => {
           {/* Desktop Navigation */}
           <nav className='hidden items-center space-x-8 md:flex'>
             <Link
-              href='/companies'
+              href='/'
+              className='group relative px-3 py-2 font-medium text-gray-600 transition-colors hover:text-blue-600'
+            >
+              <span className='relative z-10'>Home</span>
+              <span className='absolute inset-0 origin-center scale-0 rounded-lg bg-blue-50 transition-transform group-hover:scale-100' />
+            </Link>
+
+            <Link
+              href='/company'
               className='group relative px-3 py-2 font-medium text-gray-600 transition-colors hover:text-blue-600'
             >
               <span className='relative z-10'>Companies</span>
@@ -36,13 +44,13 @@ const Header = () => {
               <div className='invisible absolute -left-2 top-full w-56 translate-y-2 p-2 opacity-0 transition-all duration-200 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100'>
                 <div className='overflow-hidden rounded-xl border border-gray-100 bg-white py-2 shadow-xl'>
                   <Link
-                    href='/categories/tech'
+                    href='#'
                     className='flex items-center px-4 py-2 text-gray-600 hover:bg-blue-50 hover:text-blue-600'
                   >
                     Technology
                   </Link>
                   <Link
-                    href='/categories/finance'
+                    href='#'
                     className='flex items-center px-4 py-2 text-gray-600 hover:bg-blue-50 hover:text-blue-600'
                   >
                     Finance
@@ -51,7 +59,7 @@ const Header = () => {
               </div>
             </div>
             <Link
-              href='/about'
+              href='#'
               className='group relative px-3 py-2 font-medium text-gray-600 transition-colors hover:text-blue-600'
             >
               <span className='relative z-10'>About</span>
@@ -76,19 +84,25 @@ const Header = () => {
         >
           <nav className='space-y-1 px-2 py-4'>
             <Link
-              href='/companies'
+              href='/'
+              className='block rounded-lg px-4 py-3 font-medium text-gray-600 transition-colors hover:bg-blue-50 hover:text-blue-600'
+            >
+              Home
+            </Link>
+            <Link
+              href='/company'
               className='block rounded-lg px-4 py-3 font-medium text-gray-600 transition-colors hover:bg-blue-50 hover:text-blue-600'
             >
               Companies
             </Link>
             <Link
-              href='/categories'
+              href='#'
               className='block rounded-lg px-4 py-3 font-medium text-gray-600 transition-colors hover:bg-blue-50 hover:text-blue-600'
             >
               Categories
             </Link>
             <Link
-              href='/about'
+              href='#'
               className='block rounded-lg px-4 py-3 font-medium text-gray-600 transition-colors hover:bg-blue-50 hover:text-blue-600'
             >
               About
