@@ -467,16 +467,16 @@
   "model": "company.company",
   "pk": 525,
   "fields": {
-    "name": "Bihani Tech Pvt. Ltd.",
-    "address": "Mohan Marga, New Road, Narayangarh",
-    "city": "Bharatpur",
-    "website": "http://bihanitech.com",
-    "career_page": null,
-    "email": null,
-    "linkedin": null,
-    "phone": "977-56-571259",
-    "is_active": false,
-    "is_valid": false
+    "name": "Bihani Tech Pvt Ltd",
+    "address": "Bharatpur",
+    "city": "Chitwan",
+    "website": "https://bihanitech.com/",
+    "career_page": "https://bihanitech.com/career-page/",
+    "email": "info@bihanitech.com",
+    "linkedin": "https://www.linkedin.com/company/bihanitech/",
+    "phone": "+977-056596159",
+    "is_active": true,
+    "is_valid": true
   }
 },
 {
@@ -1041,22 +1041,6 @@
 },
 {
   "model": "company.company",
-  "pk": 566,
-  "fields": {
-    "name": "Busy Mind International Pvt. Ltd.",
-    "address": "Chabahil, Kathmandu",
-    "city": "Kathmandu",
-    "website": null,
-    "career_page": null,
-    "email": null,
-    "linkedin": null,
-    "phone": "014483883",
-    "is_active": false,
-    "is_valid": false
-  }
-},
-{
-  "model": "company.company",
   "pk": 567,
   "fields": {
     "name": "Credit Information System",
@@ -1553,34 +1537,18 @@
 },
 {
   "model": "company.company",
-  "pk": 598,
-  "fields": {
-    "name": "Bitsbeat",
-    "address": "Bagmati",
-    "city": "Kathmandu",
-    "website": "https://www.bitsbeat.com/",
-    "career_page": null,
-    "email": null,
-    "linkedin": null,
-    "phone": "+977 9808588164",
-    "is_active": false,
-    "is_valid": false
-  }
-},
-{
-  "model": "company.company",
   "pk": 599,
   "fields": {
-    "name": "Buddha Innovations Tech",
-    "address": "Horizonchowk, Butwal",
-    "city": "Butwal",
-    "website": "http://www.buddhainnovations.com",
-    "career_page": null,
+    "name": "Buddha Tech",
+    "address": "Jawalakhel",
+    "city": "Lalitpur",
+    "website": "https://buddhatech.info/",
+    "career_page": "https://buddhatech.info/career",
     "email": null,
-    "linkedin": null,
+    "linkedin": "https://www.linkedin.com/company/buddha-tech/",
     "phone": "+977-9843698970",
-    "is_active": false,
-    "is_valid": false
+    "is_active": true,
+    "is_valid": true
   }
 },
 {
@@ -2131,16 +2099,16 @@
   "model": "company.company",
   "pk": 635,
   "fields": {
-    "name": "BigoInfotech pvt. ltd.",
+    "name": "Bigo Information Technology Pvt Ltd",
     "address": "Chakupat",
     "city": "Patan",
     "website": "https://bigoinfotech.com/",
     "career_page": null,
-    "email": null,
-    "linkedin": null,
-    "phone": "015260867",
-    "is_active": false,
-    "is_valid": false
+    "email": "info@bigoinfotech.com",
+    "linkedin": "https://www.linkedin.com/company/bigoinfotech/",
+    "phone": "+977-984-3761182",
+    "is_active": true,
+    "is_valid": true
   }
 },
 {
@@ -2515,32 +2483,32 @@
   "model": "company.company",
   "pk": 661,
   "fields": {
-    "name": "BizHub",
-    "address": "Bagmati",
-    "city": "Kathmandu",
-    "website": "http://www.bizhub.com.np",
+    "name": "BizHub Consulting Service Pvt Ltd",
+    "address": "Kushunti Height",
+    "city": "Lalitpur",
+    "website": "https://bizhub.com.np/",
     "career_page": null,
-    "email": null,
-    "linkedin": null,
-    "phone": "+977-014-233-250",
-    "is_active": false,
-    "is_valid": false
+    "email": "info@bizhub.com.np",
+    "linkedin": "https://www.linkedin.com/company/bizhub-consulting/",
+    "phone": "+977-9802349621",
+    "is_active": true,
+    "is_valid": true
   }
 },
 {
   "model": "company.company",
   "pk": 662,
   "fields": {
-    "name": "Capital Eye Nepal",
+    "name": "Capital Eye Nepal Pvt Ltd",
     "address": "Jhamsikhel",
     "city": "Kathmandu",
     "website": "http://www.capitaleyenepal.com",
-    "career_page": null,
-    "email": null,
-    "linkedin": null,
-    "phone": "00977-1-5013564",
-    "is_active": false,
-    "is_valid": false
+    "career_page": "https://capitaleyenepal.com/careers",
+    "email": "capital@capitaleyenepal.com",
+    "linkedin": "https://www.linkedin.com/company/capital-eye-pvt--ltd-",
+    "phone": "+977-9801081830",
+    "is_active": true,
+    "is_valid": true
   }
 },
 {
@@ -3313,38 +3281,6 @@
 },
 {
   "model": "company.company",
-  "pk": 711,
-  "fields": {
-    "name": "CAD Nepal",
-    "address": "P.O. Box: 1442,Ktm",
-    "city": "Kathmandu",
-    "website": null,
-    "career_page": null,
-    "email": null,
-    "linkedin": null,
-    "phone": "00977-1-5525278",
-    "is_active": false,
-    "is_valid": false
-  }
-},
-{
-  "model": "company.company",
-  "pk": 712,
-  "fields": {
-    "name": "CMS Nepal (P.) Ltd.",
-    "address": "Bhotahity, P.O. Box: 10302",
-    "city": "Kathmandu",
-    "website": null,
-    "career_page": null,
-    "email": null,
-    "linkedin": null,
-    "phone": "00977-1-4250508",
-    "is_active": false,
-    "is_valid": false
-  }
-},
-{
-  "model": "company.company",
   "pk": 713,
   "fields": {
     "name": "IME",
@@ -3921,66 +3857,50 @@
 },
 {
   "model": "company.company",
-  "pk": 751,
-  "fields": {
-    "name": "Bits Innovation",
-    "address": "New Baneshwor",
-    "city": " Kathmandu",
-    "website": "http://bitsinnovation.com/",
-    "career_page": null,
-    "email": null,
-    "linkedin": null,
-    "phone": null,
-    "is_active": false,
-    "is_valid": false
-  }
-},
-{
-  "model": "company.company",
   "pk": 752,
   "fields": {
     "name": "Black Tech",
     "address": "Zero Kilometer",
-    "city": " Pokhara",
+    "city": "Pokhara",
     "website": "https://www.blacktech.com.np/",
     "career_page": null,
     "email": "jobs@blacktech.com.np",
     "linkedin": "https://www.linkedin.com/company/black-tech-pvt-ltd",
-    "phone": null,
-    "is_active": false,
-    "is_valid": false
+    "phone": "+977-9802839909",
+    "is_active": true,
+    "is_valid": true
   }
 },
 {
   "model": "company.company",
   "pk": 753,
   "fields": {
-    "name": "BlackBox Technologies Pvt. Ltd.",
-    "address": "Patan",
-    "city": " Lalitpur",
-    "website": "https://www.bboxtech.com/",
+    "name": "BlackBox Technologies Pvt Ltd",
+    "address": "Pulchowk",
+    "city": "Lalitpur",
+    "website": "https://www.bboxtech.com.np/",
     "career_page": null,
     "email": "info@bboxtech.com.np",
     "linkedin": "https://www.linkedin.com/company/blackbox-technology/",
     "phone": null,
-    "is_active": false,
-    "is_valid": false
+    "is_active": true,
+    "is_valid": true
   }
 },
 {
   "model": "company.company",
   "pk": 754,
   "fields": {
-    "name": "Braindigit",
+    "name": "Braindigit IT Solution Pvt Ltd",
     "address": "Gyaneshwor",
-    "city": " Kathmandu",
+    "city": "Kathmandu",
     "website": "http://www.braindigit.com/",
     "career_page": "https://www.braindigit.com/Career",
     "email": "info@braindigit.com",
     "linkedin": "https://www.braindigit.com/www.linkedin.com/company/braindigit",
-    "phone": null,
-    "is_active": false,
-    "is_valid": false
+    "phone": "+977- 1-4541260",
+    "is_active": true,
+    "is_valid": true
   }
 },
 {
@@ -3989,14 +3909,14 @@
   "fields": {
     "name": "BroadLink Network and Communication Pvt. Ltd.",
     "address": "Sanepa",
-    "city": " Lalitpur",
+    "city": "Lalitpur",
     "website": "https://broadlink.com.np/",
     "career_page": "https://broadlink.com.np/career/",
     "email": "cc@broadlink.com.np",
     "linkedin": "https://np.linkedin.com/company/broadlink-networks-and-communication-pvt-ltd",
-    "phone": null,
-    "is_active": false,
-    "is_valid": false
+    "phone": "+977-980145.3020",
+    "is_active": true,
+    "is_valid": true
   }
 },
 {
@@ -4004,15 +3924,15 @@
   "pk": 756,
   "fields": {
     "name": "CellApp Innovations",
-    "address": "Lainchaur",
-    "city": " Kathmandu",
+    "address": "Thapathali",
+    "city": "Kathmandu",
     "website": "https://cellapp.co/",
     "career_page": "https://cellapp.co/careers/",
     "email": "dm@cellapp.co",
     "linkedin": "https://www.linkedin.com/company/apps2impact/",
-    "phone": null,
-    "is_active": false,
-    "is_valid": false
+    "phone": "+977-1-4102142",
+    "is_active": true,
+    "is_valid": true
   }
 },
 {
@@ -6707,16 +6627,16 @@
   "model": "company.company",
   "pk": 1044,
   "fields": {
-    "name": "Bross Solutions Pvt. Ltd.",
+    "name": "Bross Solutions Pvt Ltd",
     "address": "Radha Raman Marg, Ganesh Chowk",
     "city": "Biratnagar",
     "website": "https://brossolutions.com.np/",
     "career_page": null,
-    "email": null,
-    "linkedin": null,
-    "phone": "+9779865556258",
-    "is_active": false,
-    "is_valid": false
+    "email": "contact@brossolutions.com.np",
+    "linkedin": "https://www.linkedin.com/company/bross-solutions/",
+    "phone": "+977-9865556258",
+    "is_active": true,
+    "is_valid": true
   }
 },
 {
@@ -6760,11 +6680,11 @@
     "city": "Kathmandu",
     "website": "https://anomatechnologies.com",
     "career_page": null,
-    "email": null,
-    "linkedin": null,
-    "phone": "+9779619201126",
-    "is_active": false,
-    "is_valid": false
+    "email": "info@anomatechnologies.com",
+    "linkedin": "https://www.linkedin.com/company/anoma-technologies/",
+    "phone": "+977-9851252222",
+    "is_active": true,
+    "is_valid": true
   }
 },
 {
@@ -6788,15 +6708,15 @@
   "pk": 1049,
   "fields": {
     "name": "Azency",
-    "address": "Jwagal, Kopundol",
+    "address": "Balkumari",
     "city": "Lalitpur",
     "website": "https://azency.com/",
-    "career_page": null,
-    "email": null,
-    "linkedin": null,
-    "phone": "+9779818110388",
-    "is_active": false,
-    "is_valid": false
+    "career_page": "https://azency.com/jobs/",
+    "email": "nepal@azency.com",
+    "linkedin": "https://www.linkedin.com/company/azency",
+    "phone": "+977-9802345945",
+    "is_active": true,
+    "is_valid": true
   }
 },
 {
@@ -6827,22 +6747,6 @@
     "email": null,
     "linkedin": null,
     "phone": "+9779802356013",
-    "is_active": false,
-    "is_valid": false
-  }
-},
-{
-  "model": "company.company",
-  "pk": 1052,
-  "fields": {
-    "name": "Ajeets Manageent and Manpower Consultancy",
-    "address": "A - 407, Western Edge 2, Borivali (East), Mumbai, 400066, Maharashtra, India",
-    "city": "Mumbai",
-    "website": "https://ajeets.com",
-    "career_page": null,
-    "email": null,
-    "linkedin": null,
-    "phone": "+919090095993",
     "is_active": false,
     "is_valid": false
   }
@@ -6961,22 +6865,6 @@
 },
 {
   "model": "company.company",
-  "pk": 1060,
-  "fields": {
-    "name": "CMS Nepal Pvt. Ltd.",
-    "address": "Bishalnagar",
-    "city": "Kathmandu",
-    "website": "https://www.cmsnpl.com/",
-    "career_page": null,
-    "email": null,
-    "linkedin": null,
-    "phone": "+9779802079981",
-    "is_active": false,
-    "is_valid": false
-  }
-},
-{
-  "model": "company.company",
   "pk": 1061,
   "fields": {
     "name": "Tech Nirvana Pvt. Ltd.",
@@ -7000,11 +6888,11 @@
     "city": "Biratnagar",
     "website": "https://bigadcompany.com/",
     "career_page": null,
-    "email": null,
-    "linkedin": null,
-    "phone": "+9779802700772",
-    "is_active": false,
-    "is_valid": false
+    "email": "info.bigadco@bigadcompany.com",
+    "linkedin": "https://www.linkedin.com/company/bigadcompany/",
+    "phone": "+977-9802700772",
+    "is_active": true,
+    "is_valid": true
   }
 },
 {
@@ -7633,22 +7521,6 @@
 },
 {
   "model": "company.company",
-  "pk": 1102,
-  "fields": {
-    "name": "Asha & Company Private Limited",
-    "address": "Teku",
-    "city": "Kathmandu",
-    "website": "https://asha.inc",
-    "career_page": null,
-    "email": null,
-    "linkedin": null,
-    "phone": "+9779802326624",
-    "is_active": false,
-    "is_valid": false
-  }
-},
-{
-  "model": "company.company",
   "pk": 1103,
   "fields": {
     "name": "Proxy Infotech Solutions Pvt. Ltd.",
@@ -7683,16 +7555,16 @@
   "model": "company.company",
   "pk": 1105,
   "fields": {
-    "name": "BYAAK Digital",
-    "address": "Chhapkaiya - 03, birganj, Nepal",
-    "city": "Birganj",
-    "website": "https://byaak.digital",
+    "name": "Byaak Digital",
+    "address": "Chhapkaiya - 03",
+    "city": "Birgunj",
+    "website": "https://byaakdigital.com/",
     "career_page": null,
-    "email": null,
-    "linkedin": null,
-    "phone": "+9779811236793",
-    "is_active": false,
-    "is_valid": false
+    "email": "contact@byaakdigital.com",
+    "linkedin": "https://www.linkedin.com/company/byaak-digital-marketing-company-birgunj-nepal/",
+    "phone": "+977-9811236793",
+    "is_active": true,
+    "is_valid": true
   }
 },
 {
@@ -8145,22 +8017,6 @@
 },
 {
   "model": "company.company",
-  "pk": 1134,
-  "fields": {
-    "name": "Analogue Inc",
-    "address": "Analogue Square Pingalasthan Gaushala",
-    "city": "Kathmandu",
-    "website": "https://analogueinc.com.np",
-    "career_page": null,
-    "email": null,
-    "linkedin": null,
-    "phone": "+9779802320803",
-    "is_active": false,
-    "is_valid": false
-  }
-},
-{
-  "model": "company.company",
   "pk": 1135,
   "fields": {
     "name": "Chaitanya Design Pvt. Ltd.",
@@ -8269,6 +8125,3990 @@
     "phone": "+9779851201865",
     "is_active": false,
     "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1142,
+  "fields": {
+    "name": "XDezo Technologies",
+    "address": "",
+    "city": "Pokhara",
+    "website": "https://xdezo.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "982-5174992",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1143,
+  "fields": {
+    "name": "Pine Softwares Pvt. Ltd.",
+    "address": "",
+    "city": "Pokhara",
+    "website": "https://pinesofts.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "985-6086763",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1144,
+  "fields": {
+    "name": "Dreamsys IT Solution Pvt. Ltd",
+    "address": "",
+    "city": "Pokhara",
+    "website": "http://www.dreamsys.com.np/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1145,
+  "fields": {
+    "name": "Code Sastra Private Limited",
+    "address": "",
+    "city": "Pokhara",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "984-6554372",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1146,
+  "fields": {
+    "name": "FireFly IT Solutions",
+    "address": "",
+    "city": "Pokhara",
+    "website": "https://thefireflytech.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "985-6084024",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1147,
+  "fields": {
+    "name": "Aarambha IT Research Center",
+    "address": "Gairapatan",
+    "city": "Pokhara",
+    "website": "https://aarambhait.com/",
+    "career_page": "https://aarambhait.com/careers",
+    "email": "hello@aarambhait.com",
+    "linkedin": "https://www.linkedin.com/company/aarambha-it/",
+    "phone": "985-6007007",
+    "is_active": true,
+    "is_valid": true
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1148,
+  "fields": {
+    "name": "XTen- Best IT Services In Pokhara",
+    "address": "",
+    "city": "Pokhara",
+    "website": "https://xten.com.np/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "981-6164252",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1149,
+  "fields": {
+    "name": "Thulo Technology Pvt.Ltd",
+    "address": "",
+    "city": "Pokhara",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "980-9373860",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1150,
+  "fields": {
+    "name": "Urja Lab",
+    "address": "",
+    "city": "Pokhara",
+    "website": "http://www.urjalab.org/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "985-6038508",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1151,
+  "fields": {
+    "name": "Websoft Technology Nepal Pvt. Ltd.",
+    "address": "",
+    "city": "Pokhara",
+    "website": "http://www.websoftnepal.com.np/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1152,
+  "fields": {
+    "name": "Virtual Technology Pvt. Ltd.",
+    "address": "",
+    "city": "Pokhara",
+    "website": "http://www.vtechnepal.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "985-6088453",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1153,
+  "fields": {
+    "name": "UNVR Technologies Pvt. Ltd.",
+    "address": "",
+    "city": "Pokhara",
+    "website": "http://unvrit.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "985-6075934",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1154,
+  "fields": {
+    "name": "YHH IT Solutions - YHHITS",
+    "address": "",
+    "city": "Pokhara",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "982-7188090",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1155,
+  "fields": {
+    "name": "Eversoft Company",
+    "address": "",
+    "city": "Pokhara",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "984-6751280",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1156,
+  "fields": {
+    "name": "Clinchtech",
+    "address": "",
+    "city": "Pokhara",
+    "website": "https://clinchtech.net/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "985-6079257",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1157,
+  "fields": {
+    "name": "Able Innovation Pvt Ltd",
+    "address": "Shivalaya Chowk",
+    "city": "Pokhara",
+    "website": "https://ableinnovation.com.np/",
+    "career_page": null,
+    "email": "info@ableinnovation.com.np",
+    "linkedin": "https://www.linkedin.com/company/able-innovation-pvt-ltd/",
+    "phone": "974-5446970",
+    "is_active": true,
+    "is_valid": true
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1158,
+  "fields": {
+    "name": "IMS Software Pvt. Ltd.",
+    "address": "",
+    "city": "Pokhara",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1159,
+  "fields": {
+    "name": "Jankari Tech Pvt. Ltd.",
+    "address": "",
+    "city": "Pokhara",
+    "website": "http://www.jankaritech.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "980-6659226",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1160,
+  "fields": {
+    "name": "Rangin Technology",
+    "address": "",
+    "city": "Pokhara",
+    "website": "https://www.rangin.com.np/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "980-2821147",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1161,
+  "fields": {
+    "name": "Jalpa Ventures",
+    "address": "",
+    "city": "Pokhara",
+    "website": "https://jalpaventures.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "980-6673313",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1162,
+  "fields": {
+    "name": "IT Deurali Inc. Pvt. Ltd.",
+    "address": "",
+    "city": "Pokhara",
+    "website": "http://itdeurali.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1163,
+  "fields": {
+    "name": "Skeinsoft",
+    "address": "",
+    "city": "Pokhara",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "980-4103995",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1164,
+  "fields": {
+    "name": "XL Soft Tech Pvt Ltd",
+    "address": "",
+    "city": "Pokhara",
+    "website": "https://www.xlsofttech.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1165,
+  "fields": {
+    "name": "Akshara Enterprise Technologies",
+    "address": "Panthi Galli",
+    "city": "Pokhara",
+    "website": "http://akshara.com.np/",
+    "career_page": "https://www.linkedin.com/company/akshara-enterprise-technologies-pvt-ltd/",
+    "email": null,
+    "linkedin": "https://www.linkedin.com/company/akshara-enterprise-technologies-pvt-ltd/",
+    "phone": "+977-984-6020310",
+    "is_active": true,
+    "is_valid": true
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1166,
+  "fields": {
+    "name": "Insoft Research and Development",
+    "address": "",
+    "city": "Pokhara",
+    "website": "https://insoftnepal.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1167,
+  "fields": {
+    "name": "Zerone Technology",
+    "address": "",
+    "city": "Pokhara",
+    "website": "http://www.zeronetechnology.com.np/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1168,
+  "fields": {
+    "name": "Atreya Software and Solution Pvt. Ltd.",
+    "address": "Newroad",
+    "city": "Pokhara",
+    "website": "https://atreya.com.np/",
+    "career_page": null,
+    "email": "info@atreya.com.np",
+    "linkedin": "https://www.linkedin.com/company/atreya-software/",
+    "phone": "+977-976-6606712",
+    "is_active": true,
+    "is_valid": true
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1169,
+  "fields": {
+    "name": "Reev IT",
+    "address": "",
+    "city": "Pokhara",
+    "website": "https://reev-it.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "986-4423409",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1170,
+  "fields": {
+    "name": "D Cube IT Solution Pvt. Ltd.",
+    "address": "",
+    "city": "Pokhara",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "986-0485920",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1171,
+  "fields": {
+    "name": "Oasys I.T. Solutions Pvt. Ltd.",
+    "address": "",
+    "city": "Pokhara",
+    "website": "https://oasys.com.np/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "980-2853005",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1173,
+  "fields": {
+    "name": "Codse Tech Private Limited",
+    "address": "",
+    "city": "Pokhara",
+    "website": "https://codse.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "984-6550035",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1174,
+  "fields": {
+    "name": "Green Edge Technologies Pvt. Ltd.",
+    "address": "",
+    "city": "Pokhara",
+    "website": "https://gets.com.np/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1175,
+  "fields": {
+    "name": "kandara Tech",
+    "address": "",
+    "city": "Pokhara",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "981-6671050",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1176,
+  "fields": {
+    "name": "Softup Pvt. Ltd.",
+    "address": "",
+    "city": "Pokhara",
+    "website": "https://softup.io/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1177,
+  "fields": {
+    "name": "Brand Builder Pvt Ltd",
+    "address": "Niva Galli",
+    "city": "Pokhara",
+    "website": "https://brandbuilder.com.np/",
+    "career_page": null,
+    "email": "mail@brandbuilder.com.np",
+    "linkedin": "https://www.linkedin.com/company/brand-builder-nepal/",
+    "phone": "+977-980-2850777",
+    "is_active": true,
+    "is_valid": true
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1178,
+  "fields": {
+    "name": "SMAIT SOFTWARE",
+    "address": "",
+    "city": "Pokhara",
+    "website": "http://www.smaitsoftware.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1179,
+  "fields": {
+    "name": "Treesoftware Pvt Ltd.",
+    "address": "",
+    "city": "Pokhara",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "985-6042793",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1180,
+  "fields": {
+    "name": "Tuki Soft Pvt.Ltd.",
+    "address": "",
+    "city": "Pokhara",
+    "website": "http://tukisoft.com.np/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "984-6513373",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1181,
+  "fields": {
+    "name": "Everest Technologies",
+    "address": "",
+    "city": "Pokhara",
+    "website": "https://evetresttechnologies.com.np/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "981-4163833",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1182,
+  "fields": {
+    "name": "Moonlight Software",
+    "address": "",
+    "city": "Pokhara",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1183,
+  "fields": {
+    "name": "RestroX",
+    "address": "",
+    "city": "Pokhara",
+    "website": "http://www.restrox.co/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "980-2853939",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1184,
+  "fields": {
+    "name": "Ecommerce Sathi Pvt. Ltd.",
+    "address": "",
+    "city": "Pokhara",
+    "website": "https://www.ecommercesathi.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1186,
+  "fields": {
+    "name": "Dreamify IT Solution",
+    "address": "",
+    "city": "Pokhara",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "981-7102037",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1187,
+  "fields": {
+    "name": "Python Tech Com Nepal Pvt. Ltd.",
+    "address": "",
+    "city": "Pokhara",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1188,
+  "fields": {
+    "name": "Pearlcraft IT Solutions And Trading Institute",
+    "address": "",
+    "city": "Pokhara",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "985-6062697",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1189,
+  "fields": {
+    "name": "Sajan Adhikari",
+    "address": "",
+    "city": "Pokhara",
+    "website": "https://sajanadhikari.com.np/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "982-4140179",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1190,
+  "fields": {
+    "name": "I.T. Sahayatri Pvt. Ltd.",
+    "address": "",
+    "city": "Pokhara",
+    "website": "http://www.itsahayatri.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "985-6055644",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1191,
+  "fields": {
+    "name": "Webcraft Studio's Pvt. Ltd.",
+    "address": "",
+    "city": "Pokhara",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "974-5445288",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1192,
+  "fields": {
+    "name": "Encoders Inc.",
+    "address": "",
+    "city": "Pokhara",
+    "website": "https://encodersinc.com.np/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "974-5447614",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1193,
+  "fields": {
+    "name": "XDezo Academy",
+    "address": "",
+    "city": "Pokhara",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "982-5174992",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1195,
+  "fields": {
+    "name": "Aankhijhyal Technologies",
+    "address": "Shantinagar",
+    "city": "Pokhara",
+    "website": "https://aankhijhyal.com.np/",
+    "career_page": null,
+    "email": "info@aankhijhyal.com",
+    "linkedin": "https://www.linkedin.com/company/aankhijhyal/",
+    "phone": "+977-985-6078099",
+    "is_active": true,
+    "is_valid": true
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1196,
+  "fields": {
+    "name": "TripNp",
+    "address": "",
+    "city": "Pokhara",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1197,
+  "fields": {
+    "name": "P H Solution",
+    "address": "",
+    "city": "Pokhara",
+    "website": "http://www.phsolution.com.np/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1198,
+  "fields": {
+    "name": "Lele Ventures Pvt Ltd",
+    "address": "",
+    "city": "Pokhara",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "980-2802822",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1199,
+  "fields": {
+    "name": "Pokharait",
+    "address": "",
+    "city": "Pokhara",
+    "website": "http://www.pokharait.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "984-6261374",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1200,
+  "fields": {
+    "name": "Tonic Byte",
+    "address": "",
+    "city": "Pokhara",
+    "website": "http://www.tonicbyte.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "984-9951111",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1201,
+  "fields": {
+    "name": "Nipuna Prabidhik Sewa",
+    "address": "",
+    "city": "Pokhara",
+    "website": "https://nipunasewa.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "980-6779803",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1202,
+  "fields": {
+    "name": "Cosmic Computing Solutions",
+    "address": "",
+    "city": "Pokhara",
+    "website": "http://cosmiccomputing.com.np/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1203,
+  "fields": {
+    "name": "Tech Inn Laptop Store",
+    "address": "",
+    "city": "Pokhara",
+    "website": "http://techinn.com.np/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "985-6014533",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1204,
+  "fields": {
+    "name": "Growfore Solution",
+    "address": "Newroad",
+    "city": "Pokhara",
+    "website": "https://growfore.com/",
+    "career_page": "https://growfore.com/career/",
+    "email": "info@growfore.com",
+    "linkedin": "https://www.linkedin.com/company/growfore",
+    "phone": "+977-9856085151",
+    "is_active": true,
+    "is_valid": true
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1205,
+  "fields": {
+    "name": "Techolation",
+    "address": "",
+    "city": "Pokhara",
+    "website": "https://techolation.com.au/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1206,
+  "fields": {
+    "name": "Pokhara Hosting",
+    "address": "",
+    "city": "Pokhara",
+    "website": "http://www.pokharahosting.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "984-6602224",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1207,
+  "fields": {
+    "name": "T4 Technology Pvt. Ltd",
+    "address": "",
+    "city": "Pokhara",
+    "website": "http://www.t4tech.com.np/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "986-7019180",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1208,
+  "fields": {
+    "name": "F5 Techstore",
+    "address": "",
+    "city": "Pokhara",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "980-2811063",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1209,
+  "fields": {
+    "name": "TechAayam Nepal",
+    "address": "",
+    "city": "Pokhara",
+    "website": "https://techaayam.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "984-6453341",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1210,
+  "fields": {
+    "name": "Yashi Labs Private Limited",
+    "address": "",
+    "city": "Pokhara",
+    "website": "http://www.yashilabs.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "985-6086580",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1211,
+  "fields": {
+    "name": "CodeFest",
+    "address": "",
+    "city": "Pokhara",
+    "website": "http://codefest.app/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "986-6006169",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1212,
+  "fields": {
+    "name": "Pravidhi Digital Innovation Nepal Pvt. Ltd",
+    "address": "",
+    "city": "Pokhara",
+    "website": "https://www.pravidhidigitalnepal.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "985-6082224",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1213,
+  "fields": {
+    "name": "Tech Partners Nepal",
+    "address": "",
+    "city": "Pokhara",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1214,
+  "fields": {
+    "name": "Dvorak Innovation",
+    "address": "",
+    "city": "Pokhara",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "984-6511962",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1215,
+  "fields": {
+    "name": "CompuTeX IT Solution Nepal",
+    "address": "",
+    "city": "Pokhara",
+    "website": "https://www.instagram.com/computex_it_solution/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "981-8320706",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1216,
+  "fields": {
+    "name": "Cloud Minds Technologies",
+    "address": "",
+    "city": "Pokhara",
+    "website": "https://cloudmindstech.net/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "980-5865631",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1217,
+  "fields": {
+    "name": "Aama Technology",
+    "address": "Lakeside",
+    "city": "Pokhara",
+    "website": "https://aamatechnology.com.np/",
+    "career_page": null,
+    "email": "Info@raamatechnology.com.np",
+    "linkedin": null,
+    "phone": "980-6126530",
+    "is_active": true,
+    "is_valid": true
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1218,
+  "fields": {
+    "name": "EasySoftnepal",
+    "address": "",
+    "city": "Pokhara",
+    "website": "http://www.easysoftnepal.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "984-6659999",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1219,
+  "fields": {
+    "name": "Mascot Designs",
+    "address": "",
+    "city": "Pokhara",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "984-6082591",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1220,
+  "fields": {
+    "name": "GenNext Computer and Electronics",
+    "address": "",
+    "city": "Pokhara",
+    "website": "http://www.gennext.com.np/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1221,
+  "fields": {
+    "name": "Jamgrin Technologies",
+    "address": "",
+    "city": "Pokhara",
+    "website": "http://jamgrintech.com.np/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "984-6291504",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1222,
+  "fields": {
+    "name": "CrossOver Nepal",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1223,
+  "fields": {
+    "name": "Leapfrog Technology",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1225,
+  "fields": {
+    "name": "Nepal Tech Solutions Pvt. Ltd.",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1226,
+  "fields": {
+    "name": "F1Soft International Pvt. Ltd.",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1227,
+  "fields": {
+    "name": "Softech Infosys Pvt. Ltd.",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1228,
+  "fields": {
+    "name": "Softbenz Infosys",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1229,
+  "fields": {
+    "name": "Verisk Nepal Pvt Ltd.",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1230,
+  "fields": {
+    "name": "Proshore Nepal Pvt. Ltd",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1231,
+  "fields": {
+    "name": "Infinite Software Services Nepal",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1232,
+  "fields": {
+    "name": "LogicaBeans",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1233,
+  "fields": {
+    "name": "Clouds Nepal Web",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1234,
+  "fields": {
+    "name": "IT Himalaya Pvt.Ltd",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1235,
+  "fields": {
+    "name": "Next Nepal",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1236,
+  "fields": {
+    "name": "IT Expert Nepal",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1237,
+  "fields": {
+    "name": "Paradise InfoTech",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1238,
+  "fields": {
+    "name": "SoAni Tech Nepal Pvt. Ltd.",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1239,
+  "fields": {
+    "name": "E.K. Solutions",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1240,
+  "fields": {
+    "name": "Eval Technologies Pvt. Ltd.",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1241,
+  "fields": {
+    "name": "Creation Soft Nepal",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1242,
+  "fields": {
+    "name": "Javra Software Pvt Ltd Nepal",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1243,
+  "fields": {
+    "name": "E-Signature Pvt. Ltd.",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1245,
+  "fields": {
+    "name": "CodeBee Nepal",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1246,
+  "fields": {
+    "name": "SMTECH SOFTWARE",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1247,
+  "fields": {
+    "name": "Simply Software Technology Pvt. Ltd",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1248,
+  "fields": {
+    "name": "Falcon Tech Nepal",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1249,
+  "fields": {
+    "name": "Wolves Tech Nepal",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1250,
+  "fields": {
+    "name": "Identv Nepal",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1251,
+  "fields": {
+    "name": "LogPoint Nepal Pvt Ltd",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1252,
+  "fields": {
+    "name": "Wolfmatrix",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1253,
+  "fields": {
+    "name": "Fusemachines Nepal Pvt. Ltd.",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1254,
+  "fields": {
+    "name": "Lishnu Tech Pvt. Ltd.",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1255,
+  "fields": {
+    "name": "Silicon Soft and IT Consultant Pvt. Ltd.",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1256,
+  "fields": {
+    "name": "Digital Nepal Pvt. Ltd.",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1257,
+  "fields": {
+    "name": "Bluebell Software Solution",
+    "address": "Anamnagar",
+    "city": "Kathmandu",
+    "website": "https://bluebellnepal.com/",
+    "career_page": null,
+    "email": "info@airohost.com",
+    "linkedin": "https://www.linkedin.com/company/bluebell-software-nepal/",
+    "phone": "+977-9841311710",
+    "is_active": true,
+    "is_valid": true
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1258,
+  "fields": {
+    "name": "Yarsha Tech",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1259,
+  "fields": {
+    "name": "NCCS Software",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1260,
+  "fields": {
+    "name": "Innovate Tech",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1261,
+  "fields": {
+    "name": "LotusSoft Pvt Ltd",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1262,
+  "fields": {
+    "name": "Nepgeeks Technology",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1263,
+  "fields": {
+    "name": "Next Aussie Tech",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1264,
+  "fields": {
+    "name": "Webmandu Nepal Pvt Ltd",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1265,
+  "fields": {
+    "name": "InfoGrow Nepal Pvt. Ltd",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1266,
+  "fields": {
+    "name": "Dryice Solutions",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1267,
+  "fields": {
+    "name": "InfoDevelopers Pvt. Ltd.",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1268,
+  "fields": {
+    "name": "Pagoda Labs",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1269,
+  "fields": {
+    "name": "Spiralogics International Nepal",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1270,
+  "fields": {
+    "name": "ITONICS Nepal Pvt. Ltd.",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1271,
+  "fields": {
+    "name": "GBD Services",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1272,
+  "fields": {
+    "name": "Software Development House Nepal",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1273,
+  "fields": {
+    "name": "Will I.T. Pvt. Ltd.",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1274,
+  "fields": {
+    "name": "Sewa Tech Pvt Ltd",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1275,
+  "fields": {
+    "name": "Diyalo Technologies Pvt. Ltd.",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1276,
+  "fields": {
+    "name": "Techie IT Pvt. Ltd",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1277,
+  "fields": {
+    "name": "Pebble Infotech Pvt. Ltd.",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1278,
+  "fields": {
+    "name": "Numeric Mind Pvt. Ltd",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1279,
+  "fields": {
+    "name": "IT Nepal Solutions",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1280,
+  "fields": {
+    "name": "Channakya Software",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1281,
+  "fields": {
+    "name": "Cyclone Nepal Info Tech",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1282,
+  "fields": {
+    "name": "Axis Software",
+    "address": "New Baneshwor",
+    "city": "Kathmandu",
+    "website": "https://axisoftech.com/",
+    "career_page": null,
+    "email": "info@axisoftech.com",
+    "linkedin": "https://www.linkedin.com/company/axis-software-solutions",
+    "phone": "+977-984-1296586",
+    "is_active": true,
+    "is_valid": true
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1283,
+  "fields": {
+    "name": "Social IT World Pvt. Ltd.",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1284,
+  "fields": {
+    "name": "Hash IT Solution Nepal",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1285,
+  "fields": {
+    "name": "Introcept Nepal",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1286,
+  "fields": {
+    "name": "Fintech Nepal Pvt. Ltd.",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1287,
+  "fields": {
+    "name": "Web Software Nepal",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1288,
+  "fields": {
+    "name": "Maitreya Technology Pvt. Ltd.",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1289,
+  "fields": {
+    "name": "Erasoft Solution Pvt. Ltd.",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1290,
+  "fields": {
+    "name": "Devfinity Nepal",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1291,
+  "fields": {
+    "name": "Neo Software Pvt. Ltd.",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1292,
+  "fields": {
+    "name": "Reizon Studios",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1293,
+  "fields": {
+    "name": "Susankya Global",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1294,
+  "fields": {
+    "name": "Ultrabyte International Pvt. Ltd",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1295,
+  "fields": {
+    "name": "Neputer Tech Pvt. Ltd.",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1296,
+  "fields": {
+    "name": "Nepware Pvt. Ltd.",
+    "address": "Koteshwor",
+    "city": "Kathmandu",
+    "website": "https://nepware.com/",
+    "career_page": "https://nepware.com/careers",
+    "email": "contact@nepware.com",
+    "linkedin": "https://www.linkedin.com/company/nepware-pvt-ltd/",
+    "phone": "+977-985-1123451",
+    "is_active": true,
+    "is_valid": true
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1297,
+  "fields": {
+    "name": "AI-Interf",
+    "address": "Mitrapark",
+    "city": "Kathmandu",
+    "website": "https://www.ai-interf.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": "https://www.linkedin.com/company/ai-interf/",
+    "phone": "+1 314-226-6602",
+    "is_active": true,
+    "is_valid": true
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1298,
+  "fields": {
+    "name": "Rara Soft Pvt. Ltd",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1299,
+  "fields": {
+    "name": "Deerhold Nepal",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1300,
+  "fields": {
+    "name": "LogicSeed Technologies",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1301,
+  "fields": {
+    "name": "Incoffeed",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1302,
+  "fields": {
+    "name": "Softechpark",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1303,
+  "fields": {
+    "name": "MPercept Technology Pvt. Ltd.",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1304,
+  "fields": {
+    "name": "Cynical Technology Pvt. Ltd",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1305,
+  "fields": {
+    "name": "Inficare Pvt. Ltd.",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1306,
+  "fields": {
+    "name": "Plex Bit Info",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1307,
+  "fields": {
+    "name": "Uniaxial Software",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1308,
+  "fields": {
+    "name": "Web Creation Nepal",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1309,
+  "fields": {
+    "name": "TekGro Nepal Pvt Ltd",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1310,
+  "fields": {
+    "name": "Prabhavana Information Technologies Pvt. Ltd.",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1311,
+  "fields": {
+    "name": "Improvement Company Nepal Pvt. Ltd (ICN)",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1312,
+  "fields": {
+    "name": "Software Systems Nepal Pvt. Ltd.",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1313,
+  "fields": {
+    "name": "BitsInnovation",
+    "address": "Swoyambhu",
+    "city": "Kathmandu",
+    "website": "https://bitsnp.com/",
+    "career_page": "https://bitsnp.com/career.php",
+    "email": "info@bitsnp.com",
+    "linkedin": "https://www.linkedin.com/company/bitsnp",
+    "phone": "+977-9802111825",
+    "is_active": true,
+    "is_valid": true
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1314,
+  "fields": {
+    "name": "ITVilla Pvt. Ltd.",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1315,
+  "fields": {
+    "name": "Technorio Inc.",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1316,
+  "fields": {
+    "name": "Naamche",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1317,
+  "fields": {
+    "name": "Entire Business Solutions Pvt. Ltd.",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1318,
+  "fields": {
+    "name": "Intellisoft Nepal Pvt. Ltd.",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1319,
+  "fields": {
+    "name": "Peace Nepal DOT Com Pvt. Ltd.",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1320,
+  "fields": {
+    "name": "101 INFOTECH",
+    "address": "Tinkune",
+    "city": "Kathmandu",
+    "website": "https://sagarchhetri.digital/",
+    "career_page": null,
+    "email": "help.101infotech@gmail.com",
+    "linkedin": "https://np.linkedin.com/company/101infotech",
+    "phone": "9821812699",
+    "is_active": true,
+    "is_valid": true
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1321,
+  "fields": {
+    "name": "Prologic Solutions Pvt. Ltd.",
+    "address": "",
+    "city": "Kathmandu",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1322,
+  "fields": {
+    "name": "Cedar Gate Services Pvt Ltd",
+    "address": "Patan",
+    "city": "Lalitpur",
+    "website": "https://www.cedargate.com/",
+    "career_page": "https://www.cedargate.com/careers/",
+    "email": null,
+    "linkedin": "https://www.linkedin.com/company/cedar-gate/",
+    "phone": "+977-01-5010060",
+    "is_active": true,
+    "is_valid": true
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1323,
+  "fields": {
+    "name": "Aegis Software Pvt. Ltd.",
+    "address": "Dhantil Lane 1",
+    "city": "Lalitpur",
+    "website": "https://www.aegishms.com/",
+    "career_page": "https://www.aegishms.com/carrers",
+    "email": "info@aegishms.com",
+    "linkedin": "https://www.linkedin.com/company/aegis-software-nepal/",
+    "phone": "+977-980-1961498",
+    "is_active": true,
+    "is_valid": true
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1324,
+  "fields": {
+    "name": "Eagle Vision It Pvt. Ltd.",
+    "address": "",
+    "city": "",
+    "website": "http://eaglevisionit.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "984-0060654",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1325,
+  "fields": {
+    "name": "App Technologies Pvt. Ltd.",
+    "address": "Lagankhel",
+    "city": "Lalitpur",
+    "website": "https://apptechnologies.co/",
+    "career_page": "https://apptechnologies.co/careers",
+    "email": "info@apptechnologies.co",
+    "linkedin": "https://www.linkedin.com/company/app-technologies-pvt-ltd",
+    "phone": "+977-9813179590",
+    "is_active": true,
+    "is_valid": true
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1326,
+  "fields": {
+    "name": "Togglecorp Solutions Pvt. Ltd.",
+    "address": "Manbhawan",
+    "city": "Lalitpur",
+    "website": "https://togglecorp.com/",
+    "career_page": "https://togglecorp.com/careers/",
+    "email": "info@togglecorp.com",
+    "linkedin": "https://www.linkedin.com/company/togglecorp/",
+    "phone": "+977-9841331922",
+    "is_active": true,
+    "is_valid": true
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1327,
+  "fields": {
+    "name": "Code Himalaya",
+    "address": "",
+    "city": "",
+    "website": "http://codehimalaya.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "974-1824490",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1328,
+  "fields": {
+    "name": "Kodiary Technologies",
+    "address": "",
+    "city": "",
+    "website": "https://kodiary.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "985-1180423",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1329,
+  "fields": {
+    "name": "TechKraft Inc Pvt. Ltd.",
+    "address": "",
+    "city": "",
+    "website": "https://techkraftinc.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1330,
+  "fields": {
+    "name": "RARA Labs",
+    "address": "",
+    "city": "",
+    "website": "https://raralabs.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1331,
+  "fields": {
+    "name": "Oasis Infotech",
+    "address": "",
+    "city": "",
+    "website": "http://oasisinfotech.com.np/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "981-8511851",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1332,
+  "fields": {
+    "name": "Varosa Technology Pvt. Ltd.",
+    "address": "",
+    "city": "",
+    "website": "https://varosatech.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "984-1000333",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1333,
+  "fields": {
+    "name": "Percoid IT Solutions",
+    "address": "",
+    "city": "",
+    "website": "http://percoidit.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1334,
+  "fields": {
+    "name": "Kitwosd IT Support Center",
+    "address": "",
+    "city": "",
+    "website": "https://kitwosd.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "984-5782017",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1335,
+  "fields": {
+    "name": "Codeology Tech Pvt. Ltd.",
+    "address": "",
+    "city": "",
+    "website": "http://www.thecodeology.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "976-6958110",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1336,
+  "fields": {
+    "name": "Zero Logic Space Pvt. Ltd.",
+    "address": "",
+    "city": "",
+    "website": "https://zerologicspace.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "980-1372927",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1337,
+  "fields": {
+    "name": "Diagonal Technologies Pvt. Ltd.",
+    "address": "",
+    "city": "",
+    "website": "https://www.diagonaltechnologies.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "985-1184181",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1338,
+  "fields": {
+    "name": "Crystal IT Solution Pvt. Ltd.",
+    "address": "",
+    "city": "",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1339,
+  "fields": {
+    "name": "Bottle Technology Pvt Ltd",
+    "address": "Jhamsikhel",
+    "city": "Lalitpur",
+    "website": "https://bottle.com.np/",
+    "career_page": null,
+    "email": null,
+    "linkedin": "https://www.linkedin.com/company/bottle-technology/",
+    "phone": "+977 9801300910",
+    "is_active": true,
+    "is_valid": true
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1340,
+  "fields": {
+    "name": "Treeleaf Technologies Pvt. Ltd.",
+    "address": "",
+    "city": "",
+    "website": "https://treeleaf.ai/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "986-3544235",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1341,
+  "fields": {
+    "name": "HiTouch Solutions Pvt. Ltd.",
+    "address": "",
+    "city": "",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "981-8907500",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1342,
+  "fields": {
+    "name": "Chulo Solutions",
+    "address": "",
+    "city": "",
+    "website": "https://chulo-solutions.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "980-1858136",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1343,
+  "fields": {
+    "name": "Myra ERP",
+    "address": "",
+    "city": "",
+    "website": "https://www.myraerp.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1344,
+  "fields": {
+    "name": "Aria Group Nepal",
+    "address": "Jawalakhel",
+    "city": "Lalitpur",
+    "website": "https://aria.com.np/",
+    "career_page": null,
+    "email": "info@aria.com.np",
+    "linkedin": "https://www.linkedin.com/company/aria-group-nepal/",
+    "phone": "+977-9802327100",
+    "is_active": true,
+    "is_valid": true
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1345,
+  "fields": {
+    "name": "Varietec IT",
+    "address": "",
+    "city": "",
+    "website": "http://www.varietec.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "980-2558894",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1347,
+  "fields": {
+    "name": "Rauniyar Tech Park",
+    "address": "",
+    "city": "",
+    "website": "https://rauniyartechpark.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "984-3909681",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1348,
+  "fields": {
+    "name": "Let IT Grow",
+    "address": "",
+    "city": "",
+    "website": "http://letitgrownepal.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "976-9385322",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1349,
+  "fields": {
+    "name": "Codeed Incorporate Pvt. Ltd.",
+    "address": "",
+    "city": "",
+    "website": "https://codeedinc.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "986-3355600",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1350,
+  "fields": {
+    "name": "SnigdhTech & Business Solution Pvt. Ltd",
+    "address": "",
+    "city": "",
+    "website": "http://www.snigdhtech.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "984-1190270",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1351,
+  "fields": {
+    "name": "EBPearls",
+    "address": "",
+    "city": "",
+    "website": "http://ebpearls.com.au/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1352,
+  "fields": {
+    "name": "Bytecare Technology",
+    "address": "Jawalakhel",
+    "city": "Lalitpur",
+    "website": "https://bytecaretech.com/",
+    "career_page": null,
+    "email": "contact@bytecaretech.com",
+    "linkedin": "https://www.linkedin.com/company/bytecare-technology",
+    "phone": "+977-9815303657",
+    "is_active": true,
+    "is_valid": true
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1353,
+  "fields": {
+    "name": "Tekvortex Pvt. Ltd.",
+    "address": "",
+    "city": "",
+    "website": "http://www.tekvortex.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1354,
+  "fields": {
+    "name": "Zakipoint Health Nepal",
+    "address": "",
+    "city": "",
+    "website": "http://www.zakipointhealth.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "986-1321976",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1355,
+  "fields": {
+    "name": "Annofi Technologies Pvt. Ltd.",
+    "address": "Patan Dhoka",
+    "city": "Lalitpur",
+    "website": "http://www.annofi.com/",
+    "career_page": "https://annofi.com/careers",
+    "email": "info@annofi.com",
+    "linkedin": "https://www.linkedin.com/company/annofitechnologies/",
+    "phone": "+977-9801916141",
+    "is_active": true,
+    "is_valid": true
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1356,
+  "fields": {
+    "name": "e-Zone International Pvt. Ltd.",
+    "address": "",
+    "city": "",
+    "website": "http://www.ezone.com.np/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1357,
+  "fields": {
+    "name": "Miracle Interface",
+    "address": "",
+    "city": "",
+    "website": "https://miracleinterface.com.np/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1358,
+  "fields": {
+    "name": "Tech Nirvana",
+    "address": "",
+    "city": "",
+    "website": "https://www.technirvana.com.np/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "986-9028924",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1359,
+  "fields": {
+    "name": "Elitekod Tech Pvt. Ltd",
+    "address": "",
+    "city": "",
+    "website": "https://elitekod.com.np/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "984-1002578",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1360,
+  "fields": {
+    "name": "Quark InfoTech",
+    "address": "",
+    "city": "",
+    "website": "https://quarkinfotech.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "980-1816685",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1361,
+  "fields": {
+    "name": "Realm Infotech Pvt. Ltd.",
+    "address": "",
+    "city": "",
+    "website": "https://www.realminfotek.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "984-1700314",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1362,
+  "fields": {
+    "name": "Techcare Softwares",
+    "address": "",
+    "city": "",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "986-5998844",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1363,
+  "fields": {
+    "name": "NBIT PVT LTD",
+    "address": "",
+    "city": "",
+    "website": "https://nbit.com.np/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1364,
+  "fields": {
+    "name": "Oston Technology",
+    "address": "",
+    "city": "",
+    "website": "https://ostontech.com.np/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "986-2751305",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1365,
+  "fields": {
+    "name": "inGrails Pvt. Ltd.",
+    "address": "",
+    "city": "",
+    "website": "https://www.ingrails.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "980-1856410",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1366,
+  "fields": {
+    "name": "Dasraa Tech Private Limited",
+    "address": "",
+    "city": "",
+    "website": "https://www.dasraa.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "981-3031140",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1367,
+  "fields": {
+    "name": "Zegal Nepal",
+    "address": "",
+    "city": "",
+    "website": "http://zegal.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1368,
+  "fields": {
+    "name": "DevOps Technology Pvt. Ltd.",
+    "address": "",
+    "city": "",
+    "website": "http://www.devopstechnepal.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "984-1448553",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1369,
+  "fields": {
+    "name": "HexCode Nepal",
+    "address": "",
+    "city": "",
+    "website": "https://hexcodenepal.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "976-5340084",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1370,
+  "fields": {
+    "name": "Horizon Technology Pvt. Ltd",
+    "address": "",
+    "city": "",
+    "website": "http://www.horizontechnology.com.np/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "985-1192614",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1371,
+  "fields": {
+    "name": "Kalodhunga Creation",
+    "address": "",
+    "city": "",
+    "website": "http://kalodhunga.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "976-1626624",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1372,
+  "fields": {
+    "name": "Forty Two Tech Pvt. Ltd.",
+    "address": "",
+    "city": "",
+    "website": "https://keela.co/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1373,
+  "fields": {
+    "name": "Threadcode Technologies Pvt Ltd",
+    "address": "",
+    "city": "",
+    "website": "http://threadcodetech.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "980-6394661",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1374,
+  "fields": {
+    "name": "Metalogic Software Pvt.Ltd",
+    "address": "",
+    "city": "",
+    "website": "http://www.metalogic.com.np/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1375,
+  "fields": {
+    "name": "GlobalyHub",
+    "address": "",
+    "city": "",
+    "website": "https://www.globalyhub.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "981-0647787",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1376,
+  "fields": {
+    "name": "Code Rush Pvt Ltd",
+    "address": "",
+    "city": "",
+    "website": "http://coderush.com.np/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "980-1911634",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1377,
+  "fields": {
+    "name": "Teslatech",
+    "address": "",
+    "city": "",
+    "website": "https://teslatech.com.np/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "980-1968077",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1379,
+  "fields": {
+    "name": "UBA Solutions Pvt Ltd.",
+    "address": "",
+    "city": "",
+    "website": "http://uba-solutions.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1380,
+  "fields": {
+    "name": "Eight Bit Pvt Ltd (Dzango)",
+    "address": "",
+    "city": "",
+    "website": "http://eightbit.com.np/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "982-3313713",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1381,
+  "fields": {
+    "name": "Krafters Technology Pvt. Ltd.",
+    "address": "",
+    "city": "",
+    "website": "http://krafters.tech/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1382,
+  "fields": {
+    "name": "famas",
+    "address": "",
+    "city": "",
+    "website": null,
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "980-1166888",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1383,
+  "fields": {
+    "name": "wesionaryTEAM",
+    "address": "",
+    "city": "",
+    "website": "https://wesionary.team/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": null,
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1384,
+  "fields": {
+    "name": "NEPOPS",
+    "address": "",
+    "city": "",
+    "website": "http://www.nepops.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "985-1363661",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1385,
+  "fields": {
+    "name": "Viamo Nepal Pvt. Ltd.",
+    "address": "",
+    "city": "",
+    "website": "https://viamo.io/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "984-3030165",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1386,
+  "fields": {
+    "name": "EnlightenSoft Pvt. Ltd.",
+    "address": "",
+    "city": "",
+    "website": "https://enlightensoft.org/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "981-0983210",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1387,
+  "fields": {
+    "name": "Tech Glazers",
+    "address": "",
+    "city": "",
+    "website": "https://techglazers.com/",
+    "career_page": null,
+    "email": null,
+    "linkedin": null,
+    "phone": "974-5615729",
+    "is_active": false,
+    "is_valid": false
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1388,
+  "fields": {
+    "name": "Neolinx Pvt Ltd",
+    "address": "Jawalakhel",
+    "city": "Lalitpur",
+    "website": "https://www.neolinx.com.np/",
+    "career_page": "https://www.neolinx.com.np/career/",
+    "email": "info@neolinx.com.np",
+    "linkedin": "https://www.linkedin.com/company/neolinxau/",
+    "phone": "+977-9843515578",
+    "is_active": true,
+    "is_valid": true
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1389,
+  "fields": {
+    "name": "I.T. Niti Lab Pvt Ltd",
+    "address": "Jhamsikhel",
+    "city": "Lalitpur",
+    "website": "https://www.itnitilabs.com/",
+    "career_page": null,
+    "email": "info@itnitilabs.com",
+    "linkedin": "https://www.linkedin.com/company/103925893/",
+    "phone": "+977-9851364242",
+    "is_active": true,
+    "is_valid": true
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1390,
+  "fields": {
+    "name": "Lucid Software Solutions",
+    "address": "Patan",
+    "city": "Lalitpur",
+    "website": "https://lucid.co/",
+    "career_page": "https://lucid.co/careers",
+    "email": null,
+    "linkedin": "https://www.linkedin.com/company/lucidsoftware/",
+    "phone": "+977-981-3959529",
+    "is_active": true,
+    "is_valid": true
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1391,
+  "fields": {
+    "name": "Tootle",
+    "address": "Yala Sadak",
+    "city": "Lalitpur",
+    "website": "http://tootle.com.np/",
+    "career_page": "https://www.tootle.com.np/careers",
+    "email": "hello@tootle.com.np",
+    "linkedin": null,
+    "phone": "+977-982-0799277",
+    "is_active": true,
+    "is_valid": true
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1392,
+  "fields": {
+    "name": "Mandolly Tech Pvt Ltd",
+    "address": "Jawlakhel",
+    "city": "Lalitpur",
+    "website": "https://mandolly.com/",
+    "career_page": "https://mandolly.com/careers/",
+    "email": "hello@mandolly.com",
+    "linkedin": "https://www.linkedin.com/company/mandolly/",
+    "phone": "+977-9851341920",
+    "is_active": true,
+    "is_valid": true
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1393,
+  "fields": {
+    "name": "Codxective",
+    "address": "Pulchowk",
+    "city": "Lalitpur",
+    "website": "https://codxective.com/",
+    "career_page": null,
+    "email": "info@codxective.com",
+    "linkedin": null,
+    "phone": "+977-9847338818",
+    "is_active": true,
+    "is_valid": true
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1395,
+  "fields": {
+    "name": "Spices Research and Consulting Pvt Ltd",
+    "address": "UN Park",
+    "city": "Lalitpur",
+    "website": "http://www.spicesresearch.com/",
+    "career_page": "https://www.spicesresearch.com/information-technology/vacancy-announcement",
+    "email": "info@spicesresearch.com",
+    "linkedin": null,
+    "phone": "+977-01-5269107",
+    "is_active": true,
+    "is_valid": true
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1396,
+  "fields": {
+    "name": "Pandalytic Technology Pvt Ltd",
+    "address": "Sanepa",
+    "city": "Lalitpur",
+    "website": "https://pandalytic.com/",
+    "career_page": "https://pandalytic.com/career",
+    "email": "hello@pandalytic.com",
+    "linkedin": "https://www.linkedin.com/company/pandalytic/",
+    "phone": "+977-980-3137978",
+    "is_active": true,
+    "is_valid": true
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1397,
+  "fields": {
+    "name": "Swivt Nepal",
+    "address": "Sanepa",
+    "city": "Lalitpur",
+    "website": "https://swivt.com.np/",
+    "career_page": "https://swivt.io/en/career",
+    "email": "Info@goswivt.com",
+    "linkedin": "https://www.linkedin.com/company/swivt",
+    "phone": "+977-980-8825852",
+    "is_active": true,
+    "is_valid": true
+  }
+},
+{
+  "model": "company.company",
+  "pk": 1398,
+  "fields": {
+    "name": "Jianjun Research and Development",
+    "address": "Satobato",
+    "city": "Lalitpur",
+    "website": "http://www.jianjun-rnd.com.np/",
+    "career_page": "https://www.jianjun-rnd.com.np/careers.php",
+    "email": "career@jianjun-rnd.com.np",
+    "linkedin": null,
+    "phone": "+977-9851223631,",
+    "is_active": true,
+    "is_valid": true
   }
 }
 ]
