@@ -21,6 +21,8 @@ SECRET_KEY = env.str("DJANGO_SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = env.bool("DJANGO_DEBUG", default=False)
+
+# Allowed hosts
 ALLOWED_HOSTS = env("ALLOWED_HOSTS").split(",")
 
 # Application definition
@@ -39,6 +41,7 @@ THIRD_PARTY_APPS = [
     "rest_framework",
     "drf_yasg",
     "django_filters",
+    "corsheaders",
 ]
 
 LOCAL_APPS = [
@@ -51,6 +54,7 @@ INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
+    "corsheaders.middleware.CorsMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
     "django.contrib.auth.middleware.AuthenticationMiddleware",
@@ -164,12 +168,10 @@ REST_FRAMEWORK = {
     "PAGE_SIZE": 12,
 }
 
+# CSRF and CORS Settings
 CSRF_TRUSTED_ORIGINS = env("CSRF_TRUSTED_ORIGINS").split(",")
 
-if DEBUG:
-    CSRF_TRUSTED_ORIGINS = [
-        "http://localhost:8000",
-    ]
+CORS_ALLOWED_ORIGINS = env("CORS_ALLOWED_ORIGINS").split(",")
 
 # Logging settings
 LOG_DIR = BASE_DIR / env.path("LOG_DIR", default="logs")
