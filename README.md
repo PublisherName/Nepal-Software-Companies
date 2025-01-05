@@ -83,10 +83,16 @@ python manage.py runserver
 cd Nepal-Software-Companies/frontend
 ```
 
-3. **Install dependencies**
+3. Install pnpm globally
 
 ```bash
-npm install
+npm install -g pnpm
+```
+
+4. **Install dependencies**
+
+```bash
+pnpm install
 ```
 
 4. **Copy the `.env.example` file to `.env.local` and update the environment variables**
@@ -98,7 +104,7 @@ cp .env.example .env.local
 5. **Run the development server**
 
 ```bash
-npm run dev
+pnpm run dev
 ```
 
 ## Installation using Docker

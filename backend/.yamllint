@@ -1,3 +1,6 @@
+ignore: |
+  frontend/pnpm-lock.yaml
+
 extends: default
 
 rules:
