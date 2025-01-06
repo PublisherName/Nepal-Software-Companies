@@ -1,0 +1,59 @@
+[project]
+name = "Nepal-software-Companies"
+version = "0.0.1"
+description = "Nepal Software Companies is a student-focused directory that helps you explore IT and software companies in Nepal."
+keywords = ["Django","Event", "Rest Framework","Software Companies In Nepal", "Nepal Software Companies Directory"]
+license = { text = "MIT" }
+readme = "README.md"
+authors = [
+    { name = "Subash Ghimire", email = "soft@subashghimire.info.np" },
+]
+maintainers = [
+    { name = "Subash Ghimire", email = "soft@subashghimire.info.np" },
+]
+classifiers = [
+    "Framework :: Django",
+    "Programming Language :: Python :: 3",
+]
+
+requires-python = ">=3.12.4"
+dependencies = [
+    "django-cors-headers>=4.6.0",
+    "django-environ>=0.11.2",
+    "django-filter>=24.3",
+    "django-jazzmin>=3.0.1",
+    "djangorestframework>=3.15.2",
+    "drf-yasg>=1.21.8",
+    "gunicorn>=23.0.0",
+    "pre-commit>=4.0.1",
+    "ruff>=0.8.6",
+    "whitenoise>=6.8.2",
+    "yamllint>=1.35.1",
+]
+
+[project.urls]
+issues = "https://github.com/PublisherName/Nepal-Software-Companies/issues"
+homepage = ""
+repository = "https://github.com/PublisherName/Nepal-Software-Companies"
+
+[tool.ruff]
+line-length = 99
+force-exclude = true
+extend-exclude = ["migrations"]
+
+[tool.ruff.lint]
+preview=true
+extend-select = ["C", "E", "F", "I001", "PLR6301", "Q", "SIM", "T", "W"]
+
+[tool.ruff.format]
+indent-style = "space"
+docstring-code-format = true
+docstring-code-line-length = 20
+
+[tool.uv.workspace]
+members = ["example"]
+
+[tool.ruff.lint.flake8-quotes]
+inline-quotes = "double"
+multiline-quotes = "double"
+docstring-quotes = "double"

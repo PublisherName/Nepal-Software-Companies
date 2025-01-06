@@ -1,0 +1,32 @@
+# Ignore Python bytecode files
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.pyc.so
+
+# Ignore all log files
+*.log
+
+# Ignore test and coverage directories
+htmlcov/
+.coverage
+.tox/
+
+# Ignore database files
+*.sqlite3
+
+# Ignore media files
+media/
+
+# Ignore static files
+public/
+
+# Ignore all .env files
+.env
+
+# Ignore all .DS_Store files (Mac OS)
+.DS_Store
+
+.venv/
+.ruff_cache/
