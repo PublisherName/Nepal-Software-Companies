@@ -1,0 +1,133 @@
+.hero-section {
+    background: linear-gradient(135deg, #0061f2 0%, #00a6e8 100%);
+    color: white;
+    padding: 8rem 0;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.hero-section::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('data:image/svg+xml,<svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><rect width="1" height="1" fill="rgba(255,255,255,0.05)"/></svg>');
+    opacity: 0.3;
+}
+
+.hero-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    position: relative;
+    z-index: 1;
+}
+
+.search-box {
+    max-width: 600px;
+}
+
+.search-box .input-group {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.search-box input {
+    border: none;
+    padding: 20px;
+    font-size: 1.1rem;
+}
+
+.search-box button {
+    padding: 20px 40px;
+    background: #0061f2;
+    border: none;
+    color: white;
+    font-weight: 500;
+    min-width: 150px;
+}
+
+.popular-tag {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 8px 20px;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 14px;
+    display: inline-block;
+    backdrop-filter: blur(5px);
+}
+
+.stats-section {
+    padding: 8rem 0;
+    background: #f8f9fa;
+    width: 100%;
+}
+
+.stats-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.stat-card {
+    background: white;
+    padding: 3rem 2rem;
+    border-radius: 15px;
+    text-align: center;
+    transition: transform 0.3s;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.stat-number {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #0061f2;
+    margin: 1.5rem 0;
+    line-height: 1;
+}
+
+.cta-section {
+    background: linear-gradient(135deg, #0061f2 0%, #00a6e8 100%);
+    color: white;
+    padding: 8rem 0;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+.btn-cta {
+    padding: 20px 50px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: all 0.3s;
+    background: white;
+    color: #0061f2;
+}
+
+.btn-cta:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.htmx-indicator {
+        opacity: 0;
+        transition: opacity 200ms ease-in;
+    }
+
+    .htmx-request .htmx-indicator {
+        opacity: 1;
+        display: block !important;
+    }
+
+    .htmx-request.htmx-indicator {
+        opacity: 1;
+        display: block !important;
+    }

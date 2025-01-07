@@ -1,0 +1,52 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/footer.css' %}">
+<footer class="footer">
+    <div class="container">
+        <div class="row gy-4">
+            <!-- Company Info -->
+            <div class="col-lg-4">
+                <h5>Nepal Software Directory</h5>
+                <p class="mb-4">Connecting Nepal's tech ecosystem.</p>
+                <div class="social-links">
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-twitter"></i></a>
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                    <a href="#"><i class="bi bi-github"></i></a>
+                </div>
+            </div>
+            <!-- Quick Links -->
+            <div class="col-lg-4">
+                <h5>Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="{% url 'home' %}">Home</a>
+                    </li>
+                    <li>
+                        <a href="{% url 'company-list' %}">Companies</a>
+                    </li>
+                    <li>
+                        <a href="#">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Newsletter -->
+            <div class="col-lg-4">
+                <h5>Stay Updated</h5>
+                <p class="mb-4">Subscribe to our newsletter for updates</p>
+                <form class="mb-3">
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Enter your email">
+                        <button class="btn btn-primary" type="submit">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- Copyright -->
+        <div class="border-top mt-5 pt-4 text-center">
+            <p class="mb-0">©; {% now "Y" %} Nepal Software Directory. All rights reserved.</p>
+        </div>
+    </div>
+</footer>

@@ -1,0 +1,95 @@
+.footer {
+    background: linear-gradient(to bottom, #1a1f25, #121417);
+    color: #ffffff;
+    padding: 5rem 0 3rem;
+    position: relative;
+}
+
+.footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+}
+
+.footer * {
+    color: #ffffff !important;
+}
+
+.footer h5 {
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    font-size: 1.25rem;
+}
+
+.footer p {
+    opacity: 0.9;
+}
+
+.footer .list-unstyled li {
+    margin-bottom: 1rem;
+}
+
+.footer .list-unstyled a {
+    opacity: 0.8;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.footer .list-unstyled a:hover {
+    opacity: 1;
+    transform: translateX(5px);
+}
+
+.footer .social-links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+    margin-right: 1rem;
+}
+
+.footer .social-links a:hover {
+    background: #0061f2;
+    transform: translateY(-3px);
+}
+
+.footer .input-group {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.footer .form-control {
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    padding: 0.75rem 1.25rem;
+}
+
+.footer .form-control::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer .btn-primary {
+    padding: 0.75rem 1.5rem;
+    background: #0061f2;
+    border: none;
+}
+
+.footer .border-top {
+    border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 3rem 0;
+    }
+}

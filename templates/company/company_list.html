@@ -1,0 +1,196 @@
+{% extends "base.html" %}
+{% load static %}
+{% load company_tags %}
+{% block title %}
+    Software Companies in Nepal
+{% endblock title %}
+{% block content %}
+    <link rel="stylesheet" href="{% static 'css/companylist.css' %}">
+    <div class="company-list-header py-5 mt-5">
+        <div class="container">
+            <form class="search-form p-4 rounded-3" method="get">
+                <div class="row g-3">
+                    <div class="col-md-3">
+                        <select name="city" class="form-select">
+                            <option value="">All Cities</option>
+                            {% for city in cities %}
+                                <option value="{{ city }}" {% if city == current_city %}selected{% endif %}>{{ city }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <select name="status" class="form-select">
+                            <option value="">All Status</option>
+                            <option value="active" {% if current_status == 'active' %}selected{% endif %}>Verified</option>
+                            <option value="inactive"
+                                    {% if current_status == 'inactive' %}selected{% endif %}>Not Verified</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-group">
+                            <input type="search"
+                                   name="q"
+                                   class="form-control"
+                                   placeholder="Search companies..."
+                                   value="{{ search_query }}">
+                            <button class="btn btn-primary px-4" type="submit">
+                                <i class="bi bi-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="container-fluid py-5 px-5">
+        {% if companies %}
+            <div id="company-list" class="row g-4">
+                {% for company in companies %}
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card company-card h-100">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-start mb-1">
+                                    <h5 class="card-title">{{ company.name }}</h5>
+                                    {% if company.is_valid %}
+                                        <span class="badge bg-success-subtle">Verified</span>
+                                    {% else %}
+                                        <span class="badge bg-danger-subtle">Not Verified</span>
+                                    {% endif %}
+                                </div>
+                                <hr class="my-3">
+                                <div class="company-details">
+                                    <p class="mb-2">
+                                        <i class="bi bi-geo-alt me-2"></i>{{ company.address }}, {{ company.city }}
+                                    </p>
+                                    {% if company.phone %}
+                                        <p class="mb-2">
+                                            <i class="bi bi-telephone me-2"></i>{{ company.phone }}
+                                        </p>
+                                    {% endif %}
+                                    {% if company.email %}
+                                        <p class="mb-2">
+                                            <i class="bi bi-envelope me-2"></i>{{ company.email }}
+                                        </p>
+                                    {% endif %}
+                                </div>
+                                <div class="company-links">
+                                    {% if company.website %}
+                                        <a href="{{ company.website }}"
+                                           class="btn btn-sm btn-outline-primary me-2"
+                                           target="_blank">
+                                            <i class="bi bi-globe"></i> Website
+                                        </a>
+                                    {% endif %}
+                                    {% if company.career_page %}
+                                        <a href="{{ company.career_page }}"
+                                           class="btn btn-sm btn-outline-success me-2"
+                                           target="_blank">
+                                            <i class="bi bi-briefcase"></i> Careers
+                                        </a>
+                                    {% endif %}
+                                    {% if company.linkedin %}
+                                        <a href="{{ company.linkedin }}"
+                                           class="btn btn-sm btn-outline-info"
+                                           target="_blank">
+                                            <i class="bi bi-linkedin"></i> LinkedIn
+                                        </a>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+            <!-- Pagination -->
+            {% if is_paginated %}
+                <nav aria-label="Company pagination" class="mt-5">
+                    <ul class="pagination justify-content-center">
+                        <!-- Previous -->
+                        {% if page_obj.has_previous %}
+                            {% with request.GET|dict_wo_page as querystring %}
+                                <li class="page-item">
+                                    <a class="page-link"
+                                       href="?page=1{% if querystring %}&{{ querystring }}{% endif %}"
+                                       aria-label="First">
+                                        <i class="bi bi-chevron-double-left"></i>
+                                    </a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="page-link"
+                                       href="?page={{ page_obj.previous_page_number }}{% if querystring %}&{{ querystring }}{% endif %}"
+                                       aria-label="Previous">
+                                        <i class="bi bi-chevron-left"></i>
+                                    </a>
+                                </li>
+                            {% endwith %}
+                        {% endif %}
+                        <!-- Page Numbers -->
+                        {% with request.GET|dict_wo_page as querystring %}
+                            {% with page_obj.number|add:'-2' as start %}
+                                {% with page_obj.number|add:'2' as end %}
+                                    {% with page_obj.paginator.num_pages as last_page %}
+                                        <!-- First Page -->
+                                        {% if start > 2 %}
+                                            <li class="page-item">
+                                                <a class="page-link"
+                                                   href="?page=1{% if querystring %}&{{ querystring }}{% endif %}">1</a>
+                                            </li>
+                                            <li class="page-item disabled">
+                                                <span class="page-link">...</span>
+                                            </li>
+                                        {% endif %}
+                                        <!-- Page Range -->
+                                        {% for i in page_obj.paginator.page_range %}
+                                            {% if i >= start and i <= end %}
+                                                <li class="page-item {% if page_obj.number == i %}active{% endif %}">
+                                                    <a class="page-link"
+                                                       href="?page={{ i }}{% if querystring %}&{{ querystring }}{% endif %}">{{ i }}</a>
+                                                </li>
+                                            {% endif %}
+                                        {% endfor %}
+                                        <!-- Last Page -->
+                                        {% if end < last_page|add:'-1' %}
+                                            <li class="page-item disabled">
+                                                <span class="page-link">...</span>
+                                            </li>
+                                            <li class="page-item">
+                                                <a class="page-link"
+                                                   href="?page={{ last_page }}{% if querystring %}&{{ querystring }}{% endif %}">
+                                                {{ last_page }}</a>
+                                            </li>
+                                        {% endif %}
+                                    {% endwith %}
+                                {% endwith %}
+                            {% endwith %}
+                        {% endwith %}
+                        <!-- Next -->
+                        {% if page_obj.has_next %}
+                            {% with request.GET|dict_wo_page as querystring %}
+                                <li class="page-item">
+                                    <a class="page-link"
+                                       href="?page={{ page_obj.next_page_number }}{% if querystring %}&{{ querystring }}{% endif %}"
+                                       aria-label="Next">
+                                        <i class="bi bi-chevron-right"></i>
+                                    </a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="page-link"
+                                       href="?page={{ page_obj.paginator.num_pages }}{% if querystring %}&{{ querystring }}{% endif %}"
+                                       aria-label="Last">
+                                        <i class="bi bi-chevron-double-right"></i>
+                                    </a>
+                                </li>
+                            {% endwith %}
+                        {% endif %}
+                    </ul>
+                </nav>
+            {% endif %}
+        {% else %}
+            <div class="text-center py-5">
+                <i class="bi bi-search display-1 text-muted"></i>
+                <h3 class="mt-4">No companies found</h3>
+                <p class="text-muted">Try adjusting your search criteria</p>
+            </div>
+        {% endif %}
+    </div>
+{% endblock content %}

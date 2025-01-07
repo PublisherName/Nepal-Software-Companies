@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}
+    Nepal Software Directory
+{% endblock title %}
+{% block content %}
+    <link rel="stylesheet" href="{% static 'css/homepage.css' %}">
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <div class="row align-items-center">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h1 class="display-3 fw-bold mb-4">Discover Tech Companies in Nepal</h1>
+                    <p class="lead mb-5">Connect with leading software companies</p>
+                    <div class="search-box mb-5 mx-auto">
+                        <form class="d-flex" action="{% url 'company-list' %}" method="get">
+                            <div class="input-group">
+                                <input type="search"
+                                       name="q"
+                                       class="form-control"
+                                       placeholder="Search companies...">
+                                <button class="btn">Search</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div>
+                        <a href="#" class="popular-tag">Kathmandu</a>
+                        <a href="#" class="popular-tag">Bhaktapur</a>
+                        <a href="#" class="popular-tag">Pokhara</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Statistics Section -->
+    <section class="stats-section">
+        <div class="stats-content">
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <div class="stat-card">
+                        <i class="bi bi-building fs-1"></i>
+                        <div class="stat-number">415</div>
+                        <div>Companies</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="stat-card">
+                        <i class="bi bi-briefcase fs-1"></i>
+                        <div class="stat-number">1</div>
+                        <div>Jobs</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="stat-card">
+                        <i class="bi bi-people fs-1"></i>
+                        <div class="stat-number">1</div>
+                        <div>Developers</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="stat-card">
+                        <i class="bi bi-code-square fs-1"></i>
+                        <div class="stat-number">100</div>
+                        <div>Technologies</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="hero-content">
+            <h2 class="display-4 fw-bold mb-4">Ready to List Your Company?</h2>
+            <p class="lead mb-5">Join Nepal's premier software directory</p>
+            <a href="#" class="btn btn-cta">List Your Company</a>
+        </div>
+    </section>
+{% endblock content %}

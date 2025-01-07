@@ -1,0 +1,129 @@
+:root {
+    --bg-primary: #f4f6f8;
+    --card-bg: #ffffff;
+    --gradient-start: #f8f9fa;
+    --gradient-end: #e9ecef;
+    --text-primary: #2d3436;
+    --text-secondary: #636e72;
+    --border-color: rgba(0,0,0,0.08);
+}
+
+body {
+    background-color: var(--bg-primary);
+}
+
+.company-list-header {
+    background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-end) 100%);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.search-form {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--border-color);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+}
+
+.company-card {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--border-color);
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.03);
+    transition: all 0.3s ease;
+}
+
+.company-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+}
+
+.company-card .card-title {
+    color: var(--text-primary);
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.company-details {
+    color: var(--text-secondary);
+}
+
+.company-details i {
+    color: #6c5ce7;
+}
+
+.company-links {
+    border-top: 1px solid var(--border-color);
+    padding-top: 1rem;
+    margin-top: 1rem;
+}
+
+.btn-outline-primary {
+    border-color: #6c5ce7;
+    color: #6c5ce7;
+}
+
+.btn-outline-primary:hover {
+    background-color: #6c5ce7;
+    border-color: #6c5ce7;
+    color: white;
+}
+
+.btn-outline-success {
+    border-color: #00b894;
+    color: #00b894;
+}
+
+.btn-outline-success:hover {
+    background-color: #00b894;
+    border-color: #00b894;
+    color: white;
+}
+
+.btn-outline-info {
+    border-color: #0984e3;
+    color: #0984e3;
+}
+
+.btn-outline-info:hover {
+    background-color: #0984e3;
+    border-color: #0984e3;
+    color: white;
+}
+
+.badge.bg-success-subtle {
+    background-color: rgba(0, 184, 148, 0.1) !important;
+    color: #00b894 !important;
+}
+
+.badge.bg-danger-subtle {
+    background-color: rgba(255, 118, 117, 0.1) !important;
+    color: #ff7675 !important;
+}
+
+.form-control, .form-select {
+    border-color: var(--border-color);
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #6c5ce7;
+    box-shadow: 0 0 0 0.25rem rgba(108, 92, 231, 0.1);
+}
+
+.pagination .page-link {
+    color: #6c5ce7;
+    border-color: var(--border-color);
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.pagination .active .page-link {
+    background-color: #6c5ce7;
+    border-color: #6c5ce7;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .company-card {
+        margin-bottom: 1rem;
+    }
+}

@@ -1,0 +1,32 @@
+/* Root Variables */
+:root {
+    --primary: #0061f2;
+    --secondary: #6c757d;
+    --success: #00ac69;
+    --info: #00cfd5;
+    --warning: #f4a100;
+    --danger: #e81500;
+    --light: #f8f9fa;
+    --dark: #212832;
+}
+
+body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .preloader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #fff;
+            z-index: 9999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }

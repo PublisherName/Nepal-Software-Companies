@@ -1,46 +1,64 @@
-from django_filters import rest_framework as filters
-from rest_framework import filters as drf_filters
-from rest_framework import permissions, viewsets
-from rest_framework.decorators import action
-from rest_framework.response import Response
+from django.db.models import Q
+from django.views.generic import ListView
 
-from .filters import CompanyFilter
 from .models import Company
-from .serializers import CompanySerializer
 
 
-class CompanyViewSet(viewsets.ModelViewSet):
-    serializer_class = CompanySerializer
-    permission_classes = [permissions.IsAuthenticatedOrReadOnly]
-    filter_backends = [
-        filters.DjangoFilterBackend,
-        drf_filters.SearchFilter,
-        drf_filters.OrderingFilter,
-    ]
-    filterset_class = CompanyFilter
-    search_fields = ["name", "city"]
-    ordering_fields = ["name", "city"]
+class CompanyListView(ListView):
+    model = Company
+    template_name = "company/company_list.html"
+    context_object_name = "companies"
+    paginate_by = 12
     ordering = ["name"]
 
-    @staticmethod
-    def get_queryset():
-        return Company.objects.filter(
-            is_valid=True,
-            is_active=True,
-        ).order_by("name")
+    def get_queryset(self):
+        queryset = super().get_queryset()
+        search_query = self.request.GET.get("q")
+        city = self.request.GET.get("city")
+        status = self.request.GET.get("status")
+        sort = self.request.GET.get("sort", "name")
 
-    @staticmethod
-    @action(detail=False, methods=["get"])
-    def stats(request):
-        total = Company.objects.count()
-        verified = Company.objects.filter(
-            is_valid=True,
-            is_active=True,
-        ).count()
+        if search_query:
+            queryset = queryset.filter(
+                Q(name__icontains=search_query)
+                | Q(address__icontains=search_query)
+                | Q(email__icontains=search_query)
+                | Q(phone__icontains=search_query)
+            ).distinct()
 
-        return Response(
+        if city:
+            queryset = queryset.filter(city__iexact=city)
+
+        if status:
+            is_active = status.lower() == "active"
+            queryset = queryset.filter(is_active=is_active)
+
+        # Handle sorting
+        if sort == "-name":
+            queryset = queryset.order_by("-name")
+        elif sort == "city":
+            queryset = queryset.order_by("city", "name")
+        else:
+            queryset = queryset.order_by("name")
+
+        return queryset
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context.update(
             {
-                "total_companies": total,
-                "verified_companies": verified,
+                "search_query": self.request.GET.get("q", ""),
+                "current_city": self.request.GET.get("city", ""),
+                "current_status": self.request.GET.get("status", ""),
+                "current_sort": self.request.GET.get("sort", "name"),
+                "cities": Company.objects.exclude(city__isnull=True)
+                .exclude(city__exact="")
+                .values_list("city", flat=True)
+                .distinct()
+                .order_by("city")
+                .order_by("city"),
+                "total_companies": Company.objects.count(),
+                "active_companies": Company.objects.filter(is_active=True).count(),
             }
         )
+        return context
