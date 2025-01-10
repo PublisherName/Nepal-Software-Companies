@@ -11588,31 +11588,31 @@
   "pk": 1364,
   "fields": {
     "name": "Oston Technology",
-    "address": "",
-    "city": "",
+    "address": "Gwarko",
+    "city": "Lalitpur",
     "website": "https://ostontech.com.np/",
-    "career_page": null,
+    "career_page": "https://ostontech.com.np/career/",
     "email": null,
     "linkedin": null,
-    "phone": "986-2751305",
-    "is_active": false,
-    "is_valid": false
+    "phone": "+977-986-2751305",
+    "is_active": true,
+    "is_valid": true
   }
 },
 {
   "model": "company.company",
   "pk": 1365,
   "fields": {
-    "name": "inGrails Pvt. Ltd.",
-    "address": "",
-    "city": "",
+    "name": "inGrails Pvt Ltd",
+    "address": "Dhobighat",
+    "city": "Lalitpur",
     "website": "https://www.ingrails.com/",
-    "career_page": null,
-    "email": null,
-    "linkedin": null,
-    "phone": "980-1856410",
-    "is_active": false,
-    "is_valid": false
+    "career_page": "https://www.ingrails.com/careers.php",
+    "email": "mail@ingrails.com",
+    "linkedin": "https://www.linkedin.com/company/ingrails/",
+    "phone": "+977-9801856410",
+    "is_active": true,
+    "is_valid": true
   }
 },
 {
@@ -11620,15 +11620,15 @@
   "pk": 1366,
   "fields": {
     "name": "Dasraa Tech Private Limited",
-    "address": "",
-    "city": "",
+    "address": "Imadol",
+    "city": "Lalitpur",
     "website": "https://www.dasraa.com/",
     "career_page": null,
-    "email": null,
-    "linkedin": null,
-    "phone": "981-3031140",
-    "is_active": false,
-    "is_valid": false
+    "email": "dasraa.national@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/dasraa-tech-private-limited-061137289/",
+    "phone": "+977 981-3031140",
+    "is_active": true,
+    "is_valid": true
   }
 },
 {
@@ -11636,31 +11636,31 @@
   "pk": 1367,
   "fields": {
     "name": "Zegal Nepal",
-    "address": "",
-    "city": "",
+    "address": "Yala Sadak",
+    "city": "Lalitpur",
     "website": "http://zegal.com/",
-    "career_page": null,
+    "career_page": "https://zegal.com/careers-zegal/",
     "email": null,
-    "linkedin": null,
+    "linkedin": "https://www.linkedin.com/company/3213265/",
     "phone": null,
-    "is_active": false,
-    "is_valid": false
+    "is_active": true,
+    "is_valid": true
   }
 },
 {
   "model": "company.company",
   "pk": 1368,
   "fields": {
-    "name": "DevOps Technology Pvt. Ltd.",
-    "address": "",
-    "city": "",
+    "name": "DevOps Technology Pvt Ltd",
+    "address": "Bakhundole",
+    "city": "Lalitpur",
     "website": "http://www.devopstechnepal.com/",
-    "career_page": null,
-    "email": null,
-    "linkedin": null,
-    "phone": "984-1448553",
-    "is_active": false,
-    "is_valid": false
+    "career_page": "https://devopstechnepal.com/careers/",
+    "email": "info@devopstechnology.com.np",
+    "linkedin": "https://www.linkedin.com/company/devops-technology/",
+    "phone": "+977-9841740940",
+    "is_active": true,
+    "is_valid": true
   }
 },
 {
@@ -11683,16 +11683,16 @@
   "model": "company.company",
   "pk": 1370,
   "fields": {
-    "name": "Horizon Technology Pvt. Ltd",
-    "address": "",
-    "city": "",
+    "name": "Horizon Technology Pvt Ltd",
+    "address": "Jawalakhel",
+    "city": "Lalitpur",
     "website": "http://www.horizontechnology.com.np/",
-    "career_page": null,
-    "email": null,
-    "linkedin": null,
-    "phone": "985-1192614",
-    "is_active": false,
-    "is_valid": false
+    "career_page": "https://horizontechnology.com.np/career/",
+    "email": "info@horizontechnology.com.np",
+    "linkedin": "https://linkedin.com/",
+    "phone": "+977-01-4599030",
+    "is_active": true,
+    "is_valid": true
   }
 },
 {
@@ -11700,47 +11700,31 @@
   "pk": 1371,
   "fields": {
     "name": "Kalodhunga Creation",
-    "address": "",
-    "city": "",
+    "address": "Imadol",
+    "city": "Lalitpur",
     "website": "http://kalodhunga.com/",
-    "career_page": null,
-    "email": null,
-    "linkedin": null,
-    "phone": "976-1626624",
-    "is_active": false,
-    "is_valid": false
+    "career_page": "https://kalodhunga.com/career",
+    "email": "kalodhunga@gmail.com",
+    "linkedin": "https://www.linkedin.com/company/kalodhunga-solution/",
+    "phone": "+977-976-1626624",
+    "is_active": true,
+    "is_valid": true
   }
 },
 {
   "model": "company.company",
   "pk": 1372,
   "fields": {
-    "name": "Forty Two Tech Pvt. Ltd.",
-    "address": "",
-    "city": "",
+    "name": "Forty Two Tech Pvt Ltd (Keela)",
+    "address": "Jhamsikhel",
+    "city": "Lalitpur",
     "website": "https://keela.co/",
-    "career_page": null,
+    "career_page": "https://www.keela.co/careers",
     "email": null,
-    "linkedin": null,
+    "linkedin": "https://www.linkedin.com/company/keela/",
     "phone": null,
-    "is_active": false,
-    "is_valid": false
-  }
-},
-{
-  "model": "company.company",
-  "pk": 1373,
-  "fields": {
-    "name": "Threadcode Technologies Pvt Ltd",
-    "address": "",
-    "city": "",
-    "website": "http://threadcodetech.com/",
-    "career_page": null,
-    "email": null,
-    "linkedin": null,
-    "phone": "980-6394661",
-    "is_active": false,
-    "is_valid": false
+    "is_active": true,
+    "is_valid": true
   }
 },
 {
@@ -11748,31 +11732,31 @@
   "pk": 1374,
   "fields": {
     "name": "Metalogic Software Pvt.Ltd",
-    "address": "",
-    "city": "",
+    "address": "Saptakhel",
+    "city": "Lalitpur",
     "website": "http://www.metalogic.com.np/",
-    "career_page": null,
-    "email": null,
-    "linkedin": null,
-    "phone": null,
-    "is_active": false,
-    "is_valid": false
+    "career_page": "https://www.metalogic.com.np/careers",
+    "email": "info@metalogic.com.np",
+    "linkedin": "https://www.linkedin.com/company/metalogic-software-pvt-ltd/",
+    "phone": "+977-9851353599",
+    "is_active": true,
+    "is_valid": true
   }
 },
 {
   "model": "company.company",
   "pk": 1375,
   "fields": {
-    "name": "GlobalyHub",
-    "address": "",
-    "city": "",
+    "name": "Globaly Hub",
+    "address": "Kumaripati",
+    "city": "Lalitpur",
     "website": "https://www.globalyhub.com/",
-    "career_page": null,
+    "career_page": "https://www.globalyhub.com/career",
     "email": null,
-    "linkedin": null,
-    "phone": "981-0647787",
-    "is_active": false,
-    "is_valid": false
+    "linkedin": "https://www.linkedin.com/company/globalyhub/",
+    "phone": "+977-9810647787",
+    "is_active": true,
+    "is_valid": true
   }
 },
 {
@@ -11780,15 +11764,15 @@
   "pk": 1376,
   "fields": {
     "name": "Code Rush Pvt Ltd",
-    "address": "",
-    "city": "",
-    "website": "http://coderush.com.np/",
-    "career_page": null,
-    "email": null,
-    "linkedin": null,
-    "phone": "980-1911634",
-    "is_active": false,
-    "is_valid": false
+    "address": "UN Park",
+    "city": "Lalitpur",
+    "website": "https://coderush.com.np/",
+    "career_page": "https://coderush.com.np/apprenticeship-program/",
+    "email": "hello@coderush.com.np",
+    "linkedin": "https://www.linkedin.com/company/code-rush-nepal/",
+    "phone": "+977-9702035673",
+    "is_active": true,
+    "is_valid": true
   }
 },
 {
@@ -11796,95 +11780,63 @@
   "pk": 1377,
   "fields": {
     "name": "Teslatech",
-    "address": "",
-    "city": "",
+    "address": "Dhobighat",
+    "city": "Lalitpur",
     "website": "https://teslatech.com.np/",
-    "career_page": null,
-    "email": null,
-    "linkedin": null,
+    "career_page": "https://teslatech.com.np/careers/",
+    "email": "job@teslatech.com.np",
+    "linkedin": "https://np.linkedin.com/company/teslatech-nepal",
     "phone": "980-1968077",
-    "is_active": false,
-    "is_valid": false
+    "is_active": true,
+    "is_valid": true
   }
 },
 {
   "model": "company.company",
   "pk": 1379,
   "fields": {
-    "name": "UBA Solutions Pvt Ltd.",
-    "address": "",
-    "city": "",
+    "name": "UBA Solutions Pvt Ltd",
+    "address": "Imadol Road",
+    "city": "Lalitpur",
     "website": "http://uba-solutions.com/",
-    "career_page": null,
-    "email": null,
-    "linkedin": null,
+    "career_page": "https://uba-solutions.com/career/",
+    "email": "info@uba-solutions.com",
+    "linkedin": "https://www.linkedin.com/company/uba-solutions-pvt.-ltd./mycompany/",
     "phone": null,
-    "is_active": false,
-    "is_valid": false
-  }
-},
-{
-  "model": "company.company",
-  "pk": 1380,
-  "fields": {
-    "name": "Eight Bit Pvt Ltd (Dzango)",
-    "address": "",
-    "city": "",
-    "website": "http://eightbit.com.np/",
-    "career_page": null,
-    "email": null,
-    "linkedin": null,
-    "phone": "982-3313713",
-    "is_active": false,
-    "is_valid": false
+    "is_active": true,
+    "is_valid": true
   }
 },
 {
   "model": "company.company",
   "pk": 1381,
   "fields": {
-    "name": "Krafters Technology Pvt. Ltd.",
-    "address": "",
-    "city": "",
+    "name": "Krafters Technology Pvt Ltd",
+    "address": "Kumaripati",
+    "city": "Lalitpur",
     "website": "http://krafters.tech/",
     "career_page": null,
-    "email": null,
-    "linkedin": null,
-    "phone": null,
-    "is_active": false,
-    "is_valid": false
-  }
-},
-{
-  "model": "company.company",
-  "pk": 1382,
-  "fields": {
-    "name": "famas",
-    "address": "",
-    "city": "",
-    "website": null,
-    "career_page": null,
-    "email": null,
-    "linkedin": null,
-    "phone": "980-1166888",
-    "is_active": false,
-    "is_valid": false
+    "email": "info@krafters.tech",
+    "linkedin": "https://www.linkedin.com/company/krafters-technology/",
+    "phone": "+977-9843744711",
+    "is_active": true,
+    "is_valid": true
   }
 },
 {
   "model": "company.company",
   "pk": 1383,
   "fields": {
-    "name": "wesionaryTEAM",
-    "address": "",
-    "city": "",
+    "name": "Wesionary Team",
+    "address": "Balkumari",
+    "city": "Lalitpur",
     "website": "https://wesionary.team/",
-    "career_page": null,
+    "career_page": "https://wesionary.team/career",
     "email": null,
-    "linkedin": null,
+    "linkedin": "https://www.linkedin.com/company/wesionary-team/",
     "phone": null,
-    "is_active": false,
-    "is_valid": false
+    "is_active": true,
+    "is_valid": true
   }
 },
 {
@@ -11892,63 +11844,63 @@
   "pk": 1384,
   "fields": {
     "name": "NEPOPS",
-    "address": "",
-    "city": "",
+    "address": "Lagankhel",
+    "city": "Lalitpur",
     "website": "http://www.nepops.com/",
-    "career_page": null,
-    "email": null,
-    "linkedin": null,
-    "phone": "985-1363661",
-    "is_active": false,
-    "is_valid": false
+    "career_page": "https://nepops.com/careers/",
+    "email": "comms@nepops.com",
+    "linkedin": "https://www.linkedin.com/company/nepaloperations/",
+    "phone": "+977-9851363661",
+    "is_active": true,
+    "is_valid": true
   }
 },
 {
   "model": "company.company",
   "pk": 1385,
   "fields": {
-    "name": "Viamo Nepal Pvt. Ltd.",
-    "address": "",
-    "city": "",
+    "name": "Viamo Nepal Pvt Ltd",
+    "address": "Santa Bhawan Marga",
+    "city": "Lalitpur",
     "website": "https://viamo.io/",
-    "career_page": null,
-    "email": null,
-    "linkedin": null,
-    "phone": "984-3030165",
-    "is_active": false,
-    "is_valid": false
+    "career_page": "https://viamo-inc.breezy.hr/",
+    "email": "hr@viamo.io",
+    "linkedin": "https://www.linkedin.com/company/viamoglobal/",
+    "phone": "+977-9843030165",
+    "is_active": true,
+    "is_valid": true
   }
 },
 {
   "model": "company.company",
   "pk": 1386,
   "fields": {
-    "name": "EnlightenSoft Pvt. Ltd.",
-    "address": "",
-    "city": "",
+    "name": "Enlighten Soft Pvt Ltd",
+    "address": "Gwarko",
+    "city": "Lalitpur",
     "website": "https://enlightensoft.org/",
     "career_page": null,
-    "email": null,
-    "linkedin": null,
-    "phone": "981-0983210",
-    "is_active": false,
-    "is_valid": false
+    "email": "info@enlightensoft.org",
+    "linkedin": "https://www.linkedin.com/company/enlightensoft/",
+    "phone": "+977-15200470",
+    "is_active": true,
+    "is_valid": true
   }
 },
 {
   "model": "company.company",
   "pk": 1387,
   "fields": {
-    "name": "Tech Glazers",
-    "address": "",
-    "city": "",
+    "name": "Tech Glazers Pvt Ltd",
+    "address": "Kusunti Height-13",
+    "city": "Lalitpur",
     "website": "https://techglazers.com/",
     "career_page": null,
-    "email": null,
-    "linkedin": null,
-    "phone": "974-5615729",
-    "is_active": false,
-    "is_valid": false
+    "email": "info@techglazers.com",
+    "linkedin": "https://linkedin.com/company/techglazers",
+    "phone": "+977-9745615729",
+    "is_active": true,
+    "is_valid": true
   }
 },
 {
