@@ -1,0 +1,42 @@
+.logout-container {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    padding: 1.5rem;
+}
+
+.card {
+    border-radius: 1rem;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+}
+
+.btn {
+    border-radius: 0.5rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+.btn-danger {
+    background: #dc3545;
+    border: none;
+}
+
+.btn-danger:hover {
+    background: #bb2d3b;
+}
+
+.btn-light {
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+}
+
+.btn-light:hover {
+    background: #e9ecef;
+}
+
+.icon-font{
+    font-size: 3rem;
+}

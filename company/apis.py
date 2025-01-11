@@ -1,17 +1,18 @@
 from django_filters import rest_framework as filters
 from rest_framework import filters as drf_filters
-from rest_framework import permissions, viewsets
+from rest_framework import viewsets
 from rest_framework.decorators import action
 from rest_framework.response import Response
 
 from .filters import CompanyFilter
 from .models import Company
+from .permissions import IsStaffOrSuperUser
 from .serializers import CompanySerializer
 
 
 class CompanyViewSet(viewsets.ModelViewSet):
     serializer_class = CompanySerializer
-    permission_classes = [permissions.IsAuthenticatedOrReadOnly]
+    permission_classes = [IsStaffOrSuperUser]
     filter_backends = [
         filters.DjangoFilterBackend,
         drf_filters.SearchFilter,

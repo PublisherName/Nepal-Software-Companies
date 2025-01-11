@@ -38,6 +38,8 @@ DJANGO_APPS = [
 ]
 
 THIRD_PARTY_APPS = [
+    "allauth",
+    "allauth.account",
     "rest_framework",
     "drf_yasg",
     "django_filters",
@@ -58,6 +60,7 @@ MIDDLEWARE = [
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
     "django.contrib.auth.middleware.AuthenticationMiddleware",
+    "allauth.account.middleware.AccountMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
     "whitenoise.middleware.WhiteNoiseMiddleware",
@@ -69,7 +72,7 @@ ROOT_URLCONF = "root.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": ["templates"],
+        "DIRS": [BASE_DIR / "templates"],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -113,6 +116,29 @@ AUTH_PASSWORD_VALIDATORS = [
         "NAME": "django.contrib.auth.password_validation.NumericPasswordValidator",
     },
 ]
+
+
+AUTHENTICATION_BACKENDS = [
+    "django.contrib.auth.backends.ModelBackend",
+    "allauth.account.auth_backends.AuthenticationBackend",
+]
+
+
+# Email Settings
+
+if DEBUG:
+    EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
+else:
+    EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
+
+EMAIL_HOST = env("EMAIL_HOST")
+EMAIL_PORT = env("EMAIL_PORT")
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = env("EMAIL_HOST_USER")
+EMAIL_HOST_PASSWORD = env("EMAIL_HOST_PASSWORD")
+SEND_EMAIL_FROM = env("SEND_EMAIL_FROM")
+ACCOUNT_EMAIL_SUBJECT_PREFIX = env("SITE_TITLE") + " - "
+DEFAULT_FROM_EMAIL = SEND_EMAIL_FROM
 
 
 # Default primary key field type
@@ -247,7 +273,32 @@ SWAGGER_SETTINGS = {
             "type": "apiKey",
             "name": "Authorization",
             "in": "header",
-        }
+            "description": "JWT Token format: Bearer <token>",
+        },
+        "Basic": {"type": "basic"},
     },
-    "USE_SESSION_AUTH": False,
+    "USE_SESSION_AUTH": True,
+    "DOC_EXPANSION": "none",
 }
+
+# Django-allauth Settings
+SITE_ID = 1
+ACCOUNT_EMAIL_VERIFICATION = "mandatory"
+ACCOUNT_AUTHENTICATION_METHOD = "username"
+ACCOUNT_USERNAME_REQUIRED = True
+ACCOUNT_UNIQUE_EMAIL = True
+ACCOUNT_EMAIL_REQUIRED = True
+
+# Session Settings
+SESSION_COOKIE_AGE = 60 * 60 * 24 * 30
+SESSION_EXPIRE_AT_BROWSER_CLOSE = False
+
+# Password Settings
+ACCOUNT_PASSWORD_MIN_LENGTH = 8
+ACCOUNT_PASSWORD_RESET_TIMEOUT = 3600
+ACCOUNT_SIGNUP_PASSWORD_ENTER_TWICE = True
+
+# Login/Logout Settings
+LOGIN_REDIRECT_URL = "account_email"
+LOGOUT_REDIRECT_URL = "account_login"
+LOGIN_URL = "account_login"

@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+{% load allauth i18n static %}
+{% block head_title %}
+    {% trans "Email Addresses" %}
+{% endblock head_title %}
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'css/email_management.css' %}">
+{% endblock extra_css %}
+{% block content %}
+    <div class="email-management">
+        <div class="container mt-5">
+            <div class="card-wrapper">
+                <div class="email-card">
+                    <div class="card-header">
+                        <div class="icon-wrapper">
+                            <i class="bi bi-envelope-fill"></i>
+                        </div>
+                        <h1>{% trans "Email Addresses" %}</h1>
+                    </div>
+                    {% if emailaddresses %}
+                        <div class="email-list">
+                            <p class="text-muted">{% trans "The following email addresses are associated with your account:" %}</p>
+                            <form method="post" action="{% url 'account_email' %}" class="email-form">
+                                {% csrf_token %}
+                                {% for radio in emailaddress_radios %}
+                                    {% with emailaddress=radio.emailaddress %}
+                                        <div class="email-item">
+                                            <div class="email-select">
+                                                <input type="radio"
+                                                       name="email"
+                                                       value="{{ emailaddress.email }}"
+                                                       {% if radio.checked %}checked{% endif %}>
+                                                <span class="email-address">{{ emailaddress.email }}</span>
+                                            </div>
+                                            <div class="email-badges">
+                                                {% if emailaddress.verified %}
+                                                    <span class="badge badge-success">{% trans "Verified" %}</span>
+                                                {% else %}
+                                                    <span class="badge badge-warning">{% trans "Unverified" %}</span>
+                                                {% endif %}
+                                                {% if emailaddress.primary %}
+                                                    <span class="badge badge-primary">{% trans "Primary" %}</span>
+                                                {% endif %}
+                                            </div>
+                                        </div>
+                                    {% endwith %}
+                                {% endfor %}
+                                <div class="action-buttons">
+                                    <button type="submit" name="action_primary" class="btn btn-primary">
+                                        <i class="bi bi-star"></i>{% trans "Make Primary" %}
+                                    </button>
+                                    <button type="submit" name="action_send" class="btn btn-secondary">
+                                        <i class="bi bi-envelope"></i>{% trans "Re-send Verification" %}
+                                    </button>
+                                    <button type="submit" name="action_remove" class="btn btn-danger">
+                                        <i class="bi bi-trash"></i>{% trans "Remove" %}
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    {% else %}
+                        {% include "account/snippets/warn_no_email.html" %}
+                    {% endif %}
+                    {% if can_add_email %}
+                        <div class="add-email-section">
+                            <h2>{% trans "Add Email Address" %}</h2>
+                            <form method="post"
+                                  action="{% url 'account_email' %}"
+                                  class="add-email-form">
+                                {% csrf_token %}
+                                <div class="form-group">{{ form.email }}</div>
+                                <button type="submit" name="action_add" class="btn btn-success">
+                                    <i class="bi bi-plus-circle"></i>{% trans "Add Email" %}
+                                </button>
+                            </form>
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock content %}

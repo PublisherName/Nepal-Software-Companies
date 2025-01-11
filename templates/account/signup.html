@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% load static %}
+{% load allauth i18n %}
+{% block head_title %}
+    {% trans "Sign Up" %}
+{% endblock head_title %}
+{% block content %}
+    <link rel="stylesheet" href="{% static 'css/signup.css' %}">
+    <div class="signup-container min-vh-100 d-flex align-items-center justify-content-center py-5 mt-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-6 col-lg-5">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <!-- Header -->
+                            <div class="text-center mb-4">
+                                <div class="icon-wrapper mb-3">
+                                    <i class="bi bi-person-plus"></i>
+                                </div>
+                                <h3 class="fw-bold">{% trans "Create Account" %}</h3>
+                                <p class="text-muted">Join our community today</p>
+                            </div>
+                            <!-- Form -->
+                            {% if not SOCIALACCOUNT_ONLY %}
+                                <form method="post" action="{% url 'account_signup' %}" class="signup-form">
+                                    {% csrf_token %}
+                                    {% for field in form %}
+                                        <div class="form-group mb-3">
+                                            <div class="input-wrapper">
+                                                {{ field }}
+                                                {% if field.errors %}<div class="error-message">{{ field.errors|join:", " }}</div>{% endif %}
+                                            </div>
+                                        </div>
+                                    {% endfor %}
+                                    {{ redirect_field }}
+                                    <button type="submit" class="btn btn-primary w-100 py-2 mb-3">
+                                        <i class="bi bi-person-plus-fill me-2"></i>{% trans "Sign Up" %}
+                                    </button>
+                                </form>
+                            {% endif %}
+                            <!-- Social Login -->
+                            {% if SOCIALACCOUNT_ENABLED %}
+                                <div class="social-signup">
+                                    <div class="divider">
+                                        <span>or continue with</span>
+                                    </div>
+                                    {% include "socialaccount/snippets/login.html" with page_layout="entrance" %}
+                                </div>
+                            {% endif %}
+                            <!-- Login Link -->
+                            <div class="text-center mt-4">
+                                <p class="mb-0">
+                                    Already have an account?
+                                    <a href="{{ login_url }}" class="text-decoration-none">Sign in</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock content %}

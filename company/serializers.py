@@ -17,3 +17,16 @@ class CompanySerializer(serializers.ModelSerializer):
             "linkedin",
             "phone",
         ]
+        read_only_fields = ["id"]
+
+        def validate(self, attrs):
+            request = self.context.get("request")
+            if (
+                request
+                and request.method in ["PUT", "PATCH", "DELETE"]
+                and not (request.user.is_staff or request.user.is_superuser)
+            ):
+                raise serializers.ValidationError(
+                    "Only staff members or administrators can modify company information."
+                )
+            return attrs

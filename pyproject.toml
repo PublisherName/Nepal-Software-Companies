@@ -18,6 +18,7 @@ classifiers = [
 
 requires-python = ">=3.12.4"
 dependencies = [
+    "django-allauth>=65.3.1",
     "django-cors-headers>=4.6.0",
     "django-environ>=0.11.2",
     "django-filter>=24.3",
